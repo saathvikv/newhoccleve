@@ -1,0 +1,83 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #fff;
+  padding: 2em;
+  max-width: 750px;
+  margin: auto;
+}
+
+select {
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+}
+
+.line {
+  display: flex;
+  white-space: pre-wrap;
+  margin-bottom: 0.4em;
+  flex-wrap: wrap;
+}
+
+.line-number {
+  width: 3em;
+  text-align: right;
+  margin-right: 1em;
+  color: #888;
+  font-style: italic;
+}
+
+.line-number.hidden {
+  visibility: hidden;
+}
+
+#poem-id {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 1em 0;
+  color: #444;
+}
+
+#popup {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  max-width: 220px;
+  font-size: 0.9rem;
+  display: none;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+#side-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100vh;
+  background: #eee;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  padding: 1em;
+  overflow-y: auto;
+  display: none;
+  z-index: 1100;
+}
+
+#side-panel h3 {
+  margin-top: 0;
+}
+
+#side-panel .close-btn {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+  float: right;
+  user-select: none;
+}
+
+.word {
+  cursor: pointer;
+  user-select: text;
+}

@@ -1,0 +1,627 @@
+<!--
+<teiHeader>
+    <fileDesc>
+		<titleStmt>
+				<title type="main"> Huntington MS HM 111: The HOCCLEX files of the Holograph Manuscript</title>
+			<author xml:id="TH">Thomas Hoccleve</author>
+			<editor xml:id="EL">Elon Lang</editor>
+			<editor xml:id="RW">Robin Wharton</editor>
+			<respStmt>
+			<name xml:id="CB">Charles Blyth</name>
+			<resp>initial compilation and collation</resp>
+			<name xml:id="SV">Sruthi Vuppala</name>
+			<resp>programmer</resp>
+			<name xml:id="RS">Ram Sundarkumar</name>
+			<resp>programmer</resp>
+			<name xml:id="RM">Rushitha Mettu</name>
+			<resp>programmer</resp>
+			<name xml:id="PT">Priyanka Tayi</name>
+			<resp>programmer</resp>
+			</respStmt>
+			<respStmt>
+			<name xml:id="ZB">Zane Blalock</name>
+			<resp>programmer</resp>
+			</respStmt>
+			<respStmt>
+			<name xml:id="MH">Madison Hansberry</name>
+			<resp>programmer</resp>
+			</respStmt>
+			<respStmt><name xml:id="JL">Jennifer Ly</name>
+			<resp>programmer</resp>
+			</respStmt>
+			<respStmt>
+			<name xml:id="DR">Dylan Ruediger</name>
+			<resp>project manager</resp>
+			</respStmt>
+			<respStmt>
+			<name xml:id="BD">J.A.Burrow and A.I. Doyle</name>
+			<resp>editors of printed Facsimile Edition</resp>
+			</respStmt>
+			<sponsor>Texas Digital Library</sponsor>
+			<sponsor>University of Texas Digital Repository</sponsor>
+			<sponsor>UT LAITS Media Development Lab</sponsor>
+			<sponsor>Humanities Digital Workshop, Washington University, St. Louis</sponsor>
+			<sponsor>Georgia State University Student Innovation Fellowship Program</sponsor>
+		</titleStmt>
+		<publicationStmt>
+			<p>Published as part of the Hoccleve Archive.</p>
+		</publicationStmt>
+		<editionStmt>
+			<edition n="1.0">
+			<title>Version 1.0.</title>
+			<date when="2014">2014</date>
+			</edition>
+		<availability status="free">
+			<p>Published under a <ref target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution ShareAlike 3.0 License</ref>.</p>
+		</availability>
+		</editionStmt>
+		<msDesc>
+		<msIdentifier>
+  				<settlement>San Marino, California</settlement>
+  				<repository>Huntington Library</repository>
+  				<idno>Huntington MS HM 111</idno>
+				<altIdentifier>Phillipps 8151</altIdentifier>
+  		</msIdentifier>
+  			<msContents>
+  				<summary>Nineteen poems by Thomas Hoccleve</summary>
+				<author>Thomas Hoccleve</author>
+<msItem n="1">
+  <locus>fols. 3r-7v</locus>
+  <title type ="main" lang="en">The Compleynte of the Virgin before the Cross</title>
+  <title type ="alt" lang="fr">Ceste conpleynte paramont feust translatee au commandement de ma Dame de Hereford que dieu pardoynt</title>
+   <incipit>O womman that among the peple speek</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">2428</idno>
+   <idno type="poem id">01-hoc</idno>
+ </msItem>
+<msItem n="2">
+  <locus>fols. 1r-2v, 8r-16v</locus>
+  <title type ="main" lang="en">Address to Sir John Oldcastle</title>
+  <title type ="alt" lang="fr">Ceste feust faicte au temps que le .R. .H. Vt. que dieu pardoint feust a Hampton sur son primer passage vers Harflete</title>
+	<incipit>The laddre of heuene/I meene charitee</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3407</idno>
+   <idno type="poem id">02-hoc</idno>
+ </msItem>
+<msItem n="3">
+  <locus>fols. 16v-26r</locus>
+  <title type ="main" lang="fr">La Male Regle de T. Hoccleue</title>
+  <title type ="alt" lang="fr">Cy ensuyt la male regle de .T. Hoccleue</title>
+<incipit>O precious tresor inconparable</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">2538</idno>
+<idno type="poem id">03-hoc</idno>
+ </msItem>
+<msItem n="4">
+  <locus>fols. 26r-27r</locus>
+  <title type ="main" lang="en">Balade to King Henry V. on his Accession to the Throne</title>
+  <title type ="alt" lang="fr">Ceste balade ensuante feust faite au tresnoble Roy .H. le .Vt. que dieu pardoint le iour que les seigneurs de son Roialme lui firent lour homages a Kenyngtoun</title>
+<incipit>The kyng of kynges regnyng ouer al</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3402</idno>
+<idno type="poem id">04-hoc</idno>
+ </msItem>
+<msItem n="5">
+  <locus>fols. 27r-27v</locus>
+  <title type ="main" lang="en">Two Balades to Henry V and the Knights of the Garter (Ballad #1)</title>
+  <title type ="alt" lang="fr">Cestes balades ensuyantes feurent faites au tresnoble Roy H. le quint que dieu pardoint et au treshonurable conpaignie du Iarter</title>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3788</idno>
+<idno type="poem id">05-hoc</idno>
+ </msItem>
+<msItem n="6">
+  <locus>fols. 28r-v</locus>
+  <title type ="main" lang="en">Two Balades to Henry V and the Knights of the Garter (Ballad #2)</title>
+  <title type ="alt" lang="fr">Cestes balades ensuyantes feurent faites au tresnoble Roy H. le quint que dieu pardoint et au treshonurable conpaignie du Iarter</title>
+<incipit>To yow welle of honur and worthynesse</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">4251</idno>
+<idno type="poem id">06-hoc</idno>
+ </msItem>
+<msItem n="7">
+  <locus>fols. 28v-31r</locus>
+  <title type ="main" lang="la">Ad Beatam Virginem</title>
+<incipit>Modir of lyf/o cause of al our welthe</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">2222</idno>
+<idno type="poem id">07-hoc</idno>
+ </msItem>
+<msItem n="8">
+  <locus>fols. 31r-32v</locus>
+  <title type ="main" lang="en">Balade, After K. Richard II.'s Bones were Brought to Westminster</title>
+  <title type ="alt" lang="fr">Ceste balade ensuyante feust faite tost apres que les osses du Roy Richard feurent apportez a Westmouster</title>
+<incipit>Where as that this land wont was for to be</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">4066</idno>
+<idno type="poem id">08-hoc</idno>
+ </msItem>
+<msItem n="9">
+  <locus>fols. 32v-34r</locus>
+  <title type ="main" lang="en">Balade to my Gracious Lord of York</title>
+<incipit>Go litil pamfilet and streight thee dresse</incipit>
+  <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">930</idno>
+<idno type="poem id">09-hoc</idno>
+ </msItem>
+<msItem n="10">
+  <locus>fols. 34r-37r</locus>
+  <title type ="main" lang="la">Ad Beatam Virginem</title>
+<incipit>Modir of god/and virgyne vndeffouled</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">2221</idno>
+<idno type="poem id">10-hoc</idno>
+ </msItem>
+<msItem n="11">
+  <locus>37v-38r</locus>
+  <title type ="main" lang="en">Balade to the Duke of Bedford, Regent of France</title>
+  <title type ="alt" lang="fr">Ce feust mys en le liure de monseigneur Iohan lors nommez/ore Regent de France et Duc de Bedford</title>
+<incipit>Vn to the rial egles excellence</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3831</idno>
+<idno type="poem id">11-hoc</idno>
+ </msItem>
+<msItem n="12">
+  <locus>38r-38v</locus>
+  <title type ="main" lang="en">Balade to My Lord the Chancellor</title>
+<incipit>Fadir in god benigne and reuerent</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">783</idno>
+<idno type="poem id">12-hoc</idno>
+ </msItem>
+<msItem n="13">
+  <locus>38v-39r</locus>
+  <title type ="main" lang="en">Balade and Roundel or Chanceon to Mr. Henry Somer, Subtreasurer</title>
+  <title type ="alt" lang="fr">Cestes Balade et chanceon ensuyantz feurent faites a mon Meistre .H. Somer quant il estoit Souztresorer</title>
+<incipit>The Sonne with his bemes of brightnesse</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3480</idno>
+<idno type="poem id">13-hoc</idno>
+ </msItem>
+<msItem n="14">
+  <locus>39v</locus>
+  <title type ="main" lang="en">Roundel, or Chanceon to Somer</title>
+<incipit>Somer that rypest mannes sustenance</incipit>
+  <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3224</idno>
+<idno type="poem id">13-hoc</idno>
+ </msItem>
+<msItem n="15">
+  <locus>39v-40r</locus>
+  <title type ="main" lang="en">Balade put at the End of Hoccleve's Regement of Princes</title>
+  <title type ="alt" lang="fr">Ceste balade enuyante feust mise en le fin du liure del Regiment des Princes</title>
+<incipit>O litil book/who yaf thee hardynesse</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">2229</idno>
+<idno type="poem id">21-hoc</idno>
+ </msItem>
+<msItem n="16">
+  <locus>40r-40v</locus>
+  <title type ="main" lang="en">Balade to King Henry V., for Money</title>
+<incipit>Victorious Kyng our lord ful gracious</incipit>
+  <title type ="alt" lang="fr">Item au Roy que dieu pardoint</title>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3854</idno>
+<idno type="poem id">15-hoc</idno>
+ </msItem>
+<msItem n="17">
+  <locus>41r-41v</locus>
+  <title type ="main" lang="en">Balade to my Maister Carpenter</title>
+<incipit>See heer my maister Carpenter I yow preye</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">3082</idno>
+<idno type="poem id">16-hoc</idno>
+ </msItem>
+<msItem n="18">
+  <locus>41v-43r</locus>
+  <title type ="main" lang="en">Balade, by the Court of Good Company, to Sir Henry Somer, Cahncellor of the Exchequer</title>
+  <title type ="alt" lang="fr">Ceste balade ensuyante feust par la Court de bone conpaignie enuoiee a lonure sire Henri Somer Chaunceller de Leschequer et vn de la dicte Court</title>
+<incipit>Worsshipful sire and our freend special</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">4234</idno>
+<idno type="poem id">17-hoc</idno>
+ </msItem>
+<msItem n="19">
+  <locus>43v-47r</locus>
+  <title type ="main" lang="en">Balade to the Virgin and Christ, Englisht for Master Robert Chichele</title>
+  <title type ="alt" lang="fr">Ceste balade ensuyante feust translatee au commandement de mon Meistre Robert Chichele</title>
+<incipit>As that I walkid in the monthe of May</incipit>
+   <author xml:id="TH">Thomas Hoccleve</author>
+   <idno type="IMEV">407</idno>
+<idno type="poem id">18-hoc</idno>
+ </msItem>
+</msContents>
+<physDesc>
+				<objectDesc form="codex">
+				<supportDesc material="perg">
+				<support>
+				<p>Medium to low quality <material>parchment</material> with an early <origDate notBefore="-1600" notAfter="-1700">seventeenth century</origDate> brown <material>calf</material> binding bearing arms of <heraldry>Prince Henry</heraldry></p>
+				</support>
+   				<extent>47 leaves
+    			<dimensions scope="all" type="leaf" unit="mm">
+      			<height>210</height>
+      			<width>155</width>
+     			</dimensions>
+    		</extent>
+		</supportDesc>
+		<layoutDesc>Most pages have either 24 or 27 lines of text, including dividing lines. Pages were ruled with <material>soft brown plummet</material>or <material>crayon</material></layoutDesc>
+		<collation><p>Five eight page leaf quires, one ten leaf quire, now defective. The defective quire has been split, with leaf 1 missing and leaves 7-8 misbound as fol. 1-2 in the MSS. Borrows and Doyle speculate this was to disguise the loss of the first leaf when the MSS. was bound in the seventeenth century.</p></collation>
+		<foliation xml:id="original"><p>Bifolium signing in roman numerals in <material>brown ink</material> on top right corners of recto on half of 2nd, 4th and 5th quires, likely by Hoccleve himself, according to Borrows and Doyle.</p></foliation>
+		<foliation xml:id="eighteenth century"><material>Ink</material> pagination to fol. 16r</foliation>
+		<foliation xml:id="modern">nineteenth-century <material>pencil</material> foliation throughout.</foliation>
+		</objectDesc>
+		<handDesc>Holograph Manuscript written by Hoccleve in a distinctive, clear, and professional fifteenth-century <term>secretary script</term></handDesc>
+ 				</physDesc>
+		<history>
+			<origin>
+  			<p>Written in <origPlace>England</origPlace> between 1422 and 1426</p>
+			</origin>
+			<provenance> Binding bears royal arms <stamp>with a label of three points for the heir and the crest of a princely coronet</stamp>for either <persName>Prince Henry</persName> or <persName>Prince Charles</persName> </provenance>
+			<provenance> Sold in the Auction of <persName>Anthony Askew's</persName> books on <date when="1785-03-10"> March 1 1785 </date> to <persName>George Mason</persName></provenance>
+			<provenance>Sold at auction to <persName>Richard Heber</persName> in <date>1799</date></provenance>
+			<provenance>sold to <persName>Sir Thomas Phillipps</persName> in <date>1836,</date> where it became Phillipps MS 8151</provenance>
+			<provenance>purchased by <name type="org">Huntington Library</name> in <date>1923</date></provenance>
+		</history>
+		</msDesc>
+	</fileDesc>
+	<encodingDesc>
+		<editorialDecl>
+			<normalization>
+				<p>Semi-diplomatic transcription. In HOCCLEX files, all abbreviations have been silently expanded. Suprascripts have been silently
+
+lowered. Hoccleve's marginal notes are not included in the HOCCLEX files. Because the original purpose of the HOCCLEX files was to provide material for a lexicon, the HOCCLEX files were transcribed without grammatical marks such as
+
+paraphs and virgules. However, some of the punctus elevatus are transcribed - the original criteria regarding which punctus elevatus marks were transcribed is
+
+uncertain.</p>
+			</normalization>
+			<interpretation>
+				<p>In keeping with the primary purpose of the HOCCLEX files, each word has been marked for part of speech and for its middle-English
+
+root. </p>
+			</interpretation>
+		</editorialDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en" usage="98">English</language>
+			<language ident="la" usage="1">Latin</language>
+			<language ident="fr" usage="1">French</language>
+		</langUsage>
+		<textclass>
+		<keywords scheme="#lcsh">
+			<list>
+			<item>English Poetry-Middle English,1100-1500</item>
+			</list>
+		</keywords>
+		</textclass>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2014-10-7" who="#DR">file creation</change>
+	</revisionDesc>
+
+</teiHeader>
+-->
+
+<poem id="06-hoc">
+    <lg type="stanza" n="1" rhyme="royal">
+        <l n=" 1 ">
+            <seg type="word" me_root="ye" pos="pron%pl%nom">Yee</seg>
+            <seg type="word" me_root="lord" pos="n%pl">lordes</seg>
+            <seg type="word" me_root="ek" pos="adv">eek</seg>
+            <seg type="word" me_root="shinen" pos="v%prp_abs">shynynge</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="noble" pos="adj">noble</seg>
+            <seg type="word" me_root="fame" pos="n1">fame</seg>
+        </l>
+        <l n=" 2 ">
+            <seg type="word" me_root="to" pos="prep">To</seg>
+            <seg type="word" me_root="which" pos="pron">whiche</seg>
+            <seg type="word" me_root="appropren" pos="v%ppl">appropred</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="maintenaunce" pos="n">maintenance</seg>
+        </l>
+        <l n=" 3 ">
+            <seg type="word" me_root="of" pos="prep">Of</seg>
+            <seg type="word" me_root="crist" pos="n#propn%gen">Crystes</seg>
+            <seg type="word" me_root="cause" pos="n">cause</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="honour" pos="n">honour</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="his" pos="pron1%gen">his</seg>
+            <seg type="word" me_root="name" pos="n">name</seg>
+        </l>
+        <l n=" 4 ">
+            <seg type="word" me_root="shouven" pos="v%imp">Shoue</seg>
+            <seg type="word" me_root="on" pos="adv2">on</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="putten" pos="v%imp">putte</seg>
+            <seg type="word" me_root="his" pos="pron1%gen">his</seg>
+            <seg type="word" me_root="fo" pos="n%pl">foos</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="outraunce" pos="n2">outraunce</seg>
+        </l>
+        <l n=" 5 ">
+            <seg type="word" me_root="god" pos="n1#propn">God</seg>
+            <seg type="word" me_root="willen" pos="v%pt_3">wolde</seg>
+            <seg type="word" me_root="so" pos="adv">so</seg>
+            <seg type="word" me_root="so" pos="adv">so</seg>
+            <seg type="word" me_root="willen" pos="v%pt_3">wolde</seg>
+            <seg type="word" me_root="ek" pos="adv">eek</seg>
+            <seg type="word" me_root="your" pos="pron%pl_gen">your</seg>
+            <seg type="word" me_root="ligeaunce" pos="n">ligeance</seg>
+        </l>
+        <l n=" 6 ">
+            <seg type="word" me_root="to" pos="prep">To</seg>
+            <seg type="word" me_root="tho" pos="gram_adj%pl">tho</seg>
+            <seg type="word" me_root="two" pos="num#n">two</seg>
+            <seg type="word" me_root="priken" pos="v%imp">prikkith</seg>
+            <seg type="word" me_root="you" pos="pron%pl_obj">yow</seg>
+            <seg type="word" me_root="your" pos="pron%pl_gen">your</seg>
+            <seg type="word" me_root="duete" pos="n">duetee</seg>
+        </l>
+        <l n=" 7 ">
+            <seg type="word" me_root="who-so" pos="pron%nom">Whoso</seg>
+            <seg type="word" me_root="not" pos="adv">nat</seg>
+            <seg type="word" me_root="kepen" pos="v%pr_3">keepith</seg>
+            <seg type="word" me_root="this" pos="gram_adj">this</seg>
+            <seg type="word" me_root="double" pos="adj">double</seg>
+            <seg type="word" me_root="observaunce" pos="n">obseruance</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="2" rhyme="royal">
+        <l n=" 8 ">
+            <seg type="word" me_root="of" pos="prep">Of</seg>
+            <seg type="word" me_root="merite" pos="n">meryt</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="honour" pos="n">honour</seg>
+            <seg type="word" me_root="naked" pos="adj">nakid</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+            <seg type="word" me_root="he" pos="pron1%nom">he</seg>
+        </l>
+        <l n=" 9 ">
+            <seg type="word" me_root="your" pos="pron%pl_gen">Your</seg>
+            <seg type="word" me_root="stile" pos="n2">style</seg>
+            <seg type="word" me_root="seien" pos="v1%pr_3">seith</seg>
+            <seg type="word" me_root="that" pos="conj">that</seg>
+            <seg type="word" me_root="ye" pos="pron%pl%nom">yee</seg>
+            <seg type="word" me_root="ben" pos="v%pr_pl">been</seg>
+            <seg type="word" me_root="fo" pos="n%pl">foos</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="shame" pos="n">shame</seg>
+        </l>
+        <l n=" 10 ">
+            <seg type="word" me_root="nou" pos="adv">Now</seg>
+            <seg type="word" me_root="kithen" pos="v%imp">kythe</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="your" pos="pron%pl_gen">your</seg>
+            <seg type="word" me_root="feith" pos="n">feith</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="perseveraunce" pos="n1">perseuerance</seg>
+        </l>
+        <l n=" 11 ">
+            <seg type="word" me_root="in" pos="prep">In</seg>
+            <seg type="word" me_root="which" pos="pron">which</seg>
+            <seg type="word" me_root="a" pos="indef_art">an</seg>
+            <seg type="word" me_root="hep" pos="n">heep</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="us" pos="pron%pl_obj">vs</seg>
+            <seg type="word" me_root="ben" pos="v%pr_pl">arn</seg>
+            <seg type="word" me_root="halt" pos="adj">halt</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="lame" pos="adj">lame</seg>
+        </l>
+        <l n=" 12 ">
+            <seg type="word" me_root="oure" pos="pron%gen">Our</seg>
+            <seg type="word" me_root="cristen" pos="adj">cristen</seg>
+            <seg type="word" me_root="king" pos="n">kyng</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="engelond" pos="n#propn">Engeland</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="fraunce" pos="n#propn">France</seg>
+        </l>
+        <l n=" 13 ">
+            <seg type="word" me_root="and" pos="conj">And</seg>
+            <seg type="word" me_root="ye" pos="pron%pl%nom">yee</seg>
+            <seg type="word" me_root="min" pos="pron%gen">my</seg>
+            <seg type="word" me_root="lord" pos="n%pl">lordes</seg>
+            <seg type="word" me_root="with" pos="prep">with</seg>
+            <seg type="word" me_root="your" pos="pron%pl_gen">your</seg>
+            <seg type="word" me_root="alliaunce" pos="n">alliance</seg>
+        </l>
+        <l n=" 14 ">
+            <seg type="word" me_root="and" pos="conj">And</seg>
+            <seg type="word" me_root="other" pos="gram_adj">othir</seg>
+            <seg type="word" me_root="feithful" pos="adj">feithful</seg>
+            <seg type="word" me_root="peple" pos="n">peple</seg>
+            <seg type="word" me_root="that" pos="pron_rel">that</seg>
+            <seg type="word" me_root="ther" pos="adv">ther</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">be</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="3" rhyme="royal">
+        <l n=" 15 ">
+            <seg type="word" me_root="trusten" pos="v%pr_1">Truste</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="god" pos="n1#propn">God,</seg>
+            <seg type="word" me_root="shulen" pos="v1%pr_pl">shul</seg>
+            <seg type="word" me_root="quenchen" pos="v%inf">qwenche</seg>
+            <seg type="word" me_root="al" pos="gram_adj">al</seg>
+            <seg type="word" me_root="this" pos="gram_adj">this</seg>
+            <seg type="word" me_root="noisaunce" pos="n">nusance</seg>
+        </l>
+        <l n=" 16 ">
+            <seg type="word" me_root="and" pos="conj">And</seg>
+            <seg type="word" me_root="this" pos="gram_adj">this</seg>
+            <seg type="word" me_root="lond" pos="n">land</seg>
+            <seg type="word" me_root="setten" pos="v%inf">sette</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="heigh" pos="adj">hy</seg>
+            <seg type="word" me_root="prosperite" pos="n">prosperitee</seg>
+        </l>
+        <l n=" 17 ">
+            <seg type="word" me_root="conqueste" pos="n">Conqueste</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="heigh" pos="adj">hy</seg>
+            <seg type="word" me_root="prouesse" pos="n">prowesse</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+            <seg type="word" me_root="forto" pos="part">forto</seg>
+            <seg type="word" me_root="to" pos="part">to</seg>
+            <seg type="word" me_root="tamen" pos="v1%inf">tame</seg>
+        </l>
+        <l n=" 18 ">
+            <seg type="word" me_root="the" pos="def_art">The</seg>
+            <seg type="word" me_root="wilde" pos="adj">wylde</seg>
+            <seg type="word" me_root="wodnesse" pos="n">woodnesse</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="this" pos="gram_adj">this</seg>
+            <seg type="word" me_root="miscreaunce" pos="n">mescreance</seg>
+        </l>
+        <l n=" 19 ">
+            <seg type="word" me_root="righte" pos="adv">Right</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="rote" pos="n4">roote</seg>
+            <seg type="word" me_root="ripen" pos="v1%imp[??]">rype</seg>
+            <seg type="word" me_root="ye" pos="pron%pl%nom">yee</seg>
+            <seg type="word" me_root="that" pos="art_gram_adj">that</seg>
+            <seg type="word" me_root="same" pos="pron">same</seg>
+        </l>
+        <l n=" 20 ">
+            <seg type="word" me_root="slepen" pos="v%imp">Sleepe</seg>
+            <seg type="word" me_root="not" pos="adv">nat</seg>
+            <seg type="word" me_root="this" pos="gram_adj">this</seg>
+            <seg type="word" me_root="but" pos="conj">but</seg>
+            <seg type="word" me_root="for" pos="prep">for</seg>
+            <seg type="word" me_root="god" pos="n1#propn%gen">Goddes</seg>
+            <seg type="word" me_root="plesaunce" pos="n1">plesance</seg>
+        </l>
+        <l n=" 21 ">
+            <seg type="word" me_root="and" pos="conj">And</seg>
+            <seg type="word" me_root="his" pos="pron1%gen">his</seg>
+            <seg type="word" me_root="moder" pos="n%gen">modres</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="signifiaunce" pos="n">signifiance</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="4" rhyme="royal">
+        <l n=" 22 ">
+            <seg type="word" me_root="that" pos="conj">That</seg>
+            <seg type="word" me_root="ye" pos="pron%pl%nom">yee</seg>
+            <seg type="word" me_root="ben" pos="v%pr_pl">been</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="seinte" pos="n">seint</seg>
+            <seg type="word" me_root="george" pos="n#propn%gen">Georges</seg>
+            <seg type="word" me_root="livere" pos="n3">liveree</seg>
+        </l>
+        <l n=" 23 ">
+            <seg type="word" me_root="don" pos="v1%imp">Dooth</seg>
+            <seg type="word" me_root="him" pos="pron%obj">him</seg>
+            <seg type="word" me_root="servise" pos="n">seruice</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="knightli" pos="adj">knyghtly</seg>
+            <seg type="word" me_root="obeisaunce" pos="n">obeissance</seg>
+        </l>
+        <l n=" 24 ">
+            <seg type="word" me_root="for" pos="prep">For</seg>
+            <seg type="word" me_root="crist" pos="n#propn%gen">Crystes</seg>
+            <seg type="word" me_root="cause" pos="n">cause</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+            <seg type="word" me_root="his" pos="pron1%gen">his</seg>
+            <seg type="word" me_root="wel" pos="adv">wel</seg>
+            <seg type="word" me_root="knouen" pos="v%pr_pl">knowen</seg>
+            <seg type="word" me_root="ye" pos="pron%pl%nom">yee</seg>
+        </l>
+        <l n=" 25 ">
+            <seg type="word" me_root="stif" pos="adj">Stif</seg>
+            <seg type="word" me_root="stonden" pos="v1%imp">stande</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="that" pos="pron">that</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="ye" pos="pron%pl%nom">yee</seg>
+            <seg type="word" me_root="shulen" pos="v1%pr_pl">shuln</seg>
+            <seg type="word" me_root="greven" pos="v%inf">greeve</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="gramen" pos="v%inf">grame</seg>
+        </l>
+        <l n=" 26 ">
+            <seg type="word" me_root="the" pos="def_art">The</seg>
+            <seg type="word" me_root="fo" pos="n">fo</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="pes" pos="n">pees</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="norice" pos="n">norice</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="distaunce" pos="n">distaunce</seg>
+        </l>
+        <l n=" 27 ">
+            <seg type="word" me_root="that" pos="pron_rel">That</seg>
+            <seg type="word" me_root="nou" pos="adv">now</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+            <seg type="word" me_root="ernest" pos="n">ernest,</seg>
+            <seg type="word" me_root="turnen" pos="v%imp">torne</seg>
+            <seg type="word" me_root="hit" pos="pron">it</seg>
+            <seg type="word" me_root="in-to" pos="prep">into</seg>
+            <seg type="word" me_root="game" pos="n">game</seg>
+        </l>
+        <l n=" 28 ">
+            <seg type="word" me_root="dampnable" pos="adj">Dampnable</seg>
+            <seg type="word" me_root="from" pos="prep">fro</seg>
+            <seg type="word" me_root="feith" pos="n">feith</seg>
+            <seg type="word" me_root="ben" pos="v%pt_3">were</seg>
+            <seg type="word" me_root="variaunce" pos="n">variance</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="5" rhyme="royal">
+        <l n=" 29 ">
+            <seg type="word" me_root="lord" pos="n">Lord</seg>
+            <seg type="word" me_root="lege" pos="adj">lige</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="lord" pos="n%pl">lordes</seg>
+            <seg type="word" me_root="haven" pos="v%imp">have</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="remembraunce" pos="n">remembrance</seg>
+        </l>
+        <l n=" 30 ">
+            <seg type="word" me_root="lord" pos="n">Lord</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="al" pos="gram_adjas_n">al</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="blessed" pos="ppl">blissid</seg>
+            <seg type="word" me_root="trinite" pos="n">Trinitee</seg>
+        </l>
+        <l n=" 31 ">
+            <seg type="word" me_root="of" pos="prep">Of</seg>
+            <seg type="word" me_root="whos" pos="pron%gen">whos</seg>
+            <seg type="word" me_root="vertu" pos="n">vertu</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="mighti" pos="adj">mighty</seg>
+            <seg type="word" me_root="aboundaunce" pos="n">habundaunce</seg>
+        </l>
+        <l n=" 32 ">
+            <seg type="word" me_root="you" pos="pron">Yow</seg>
+            <seg type="word" me_root="herten" pos="v%pr_3">herte</seg>
+            <seg type="word" me_root="and" pos="conj">and</seg>
+            <seg type="word" me_root="strengthen" pos="v%pr_3">strengthe</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="feithful" pos="adj">feithful</seg>
+            <seg type="word" me_root="unite" pos="n">vnitee</seg>
+        </l>
+        <l n=" 32 ">
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="remembraunce" pos="n">remembrance</seg>
+        </l>
+        <l n=" 30 ">
+            <seg type="word" me_root="lord" pos="n">Lord</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="al" pos="gram_adjas_n">al</seg>
+            <seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="ble" pos="blissid{*ble">blissid</seg>
+        </l>
+    </lg>
+</poem>

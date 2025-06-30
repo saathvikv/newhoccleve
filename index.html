@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hoccleve Poem Archive</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Hoccleve Poem Archive</h1>
+
+<label for="poemSelector">Select a poem:</label>
+<select id="poemSelector">
+  <option value="" disabled selected>Select a poem</option>
+</select>
+
+<div id="poem">Select a poem to view.</div>
+
+<div id="popup"></div>
+
+<div id="side-panel">
+  <span class="close-btn" id="closePanel">&times;</span>
+  <h3>Search</h3>
+  <input type="text" id="searchInput" placeholder="Type to search..." style="width: 100%; padding: 0.3em; margin-bottom: 1em;" />
+  <div id="searchResults">Search results will appear here.</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

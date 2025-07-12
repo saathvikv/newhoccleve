@@ -258,6 +258,7 @@ root. </p>
 -->
 
 <poem id="14-hoc">
+    <title title_type="HUNTINGTON HM 744">Balade to King Henry V</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
             <seg type="word" me_root="victorious" pos="adj">Victorious</seg>

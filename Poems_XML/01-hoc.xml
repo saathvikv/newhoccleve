@@ -302,6 +302,7 @@ root. </p>
 </teiHeader>
 -->
 <poem id="01-hoc">
+    <title title_type="HUNTINGTON HM 111">The Compleynte of the Virgin before the Cross</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
             <seg type="word" me_root="o" pos="interj">O</seg>

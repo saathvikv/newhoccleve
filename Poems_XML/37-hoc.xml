@@ -290,6 +290,7 @@ root. </p>
 </teiHeader>
 -->
 <poem id="37-hoc">
+    <title title_type="HUNTINGTON HM 111">Lerne to Dye.</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
             <seg type="word" me_root="sin" pos="conj">Syn</seg>

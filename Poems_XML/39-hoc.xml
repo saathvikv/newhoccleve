@@ -290,6 +290,7 @@ root. </p>
 </teiHeader>
 -->
 <poem id="39-hoc">
+    <title title_type="HUNTINGTON HM 111">Hoccleve's Dedication to Lady Westmoreland</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
             <seg type="word" me_root="gon" pos="v%imp">Go,</seg>

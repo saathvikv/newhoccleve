@@ -51,9 +51,14 @@ async function loadPoem(filename) {
 
       const numberEl = document.createElement('span');
       numberEl.className = 'line-number';
-      if (index % 5 !== 0) numberEl.classList.add('hidden');
+      
+      if (lineNum < 5 || lineNum % 5 !== 0) {
+        numberEl.classList.add('hidden');
+      }
+
       numberEl.textContent = lineNum;
       lineEl.appendChild(numberEl);
+
 
       words.forEach(wordSeg => {
         const span = document.createElement('span');

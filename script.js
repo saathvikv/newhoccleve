@@ -11,7 +11,8 @@ for (let i = 1; i <= 39; i++) {
   if (i === 20 || i === 38) continue;
   const num = String(i).padStart(2, '0');
   const option = document.createElement('option');
-  option.value = `${num}-hoc.xml`;
+  
+  option.value = `Poems_XML/${num}-hoc.xml`;
   option.textContent = `Poem ${num}`;
   poemSelector.appendChild(option);
 }

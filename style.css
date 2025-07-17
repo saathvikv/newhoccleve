@@ -6,9 +6,16 @@ body {
   margin: auto;
 }
 
-select {
+button {
   font-size: 1rem;
-  margin-bottom: 1.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+}
+
+#lineSelector, #poemList {
+  margin-top: 1em;
 }
 
 .line {
@@ -80,4 +87,75 @@ select {
 .word {
   cursor: pointer;
   user-select: text;
+}
+
+.line.shaded {
+  background-color: #f3f3f3;
+}
+
+#floatingSearchBtn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 1200;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  font-size: 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#floatingSearchBtn:hover {
+  background: #222;
+}
+.big-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1em 2em;
+  margin: 1em;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 6px 15px rgba(37,117,252,0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.big-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(37,117,252,0.7);
+  text-decoration: none;
+}
+
+.poem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 2em 0;
+}
+
+.poem-grid button {
+  background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+  color: white;
+  font-size: 1rem;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(24,90,157,0.6);
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.poem-grid button:hover {
+  background: linear-gradient(135deg, #6dd5fa 0%, #2980b9 100%);
+  transform: scale(1.05);
 }

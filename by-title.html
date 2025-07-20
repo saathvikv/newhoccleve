@@ -44,7 +44,10 @@
 </head>
 <body>
 
+<a href="index.html" class="big-button" style="display:block; width:max-content; margin: 0 auto 2em auto; text-align:center;">Hoccleve Archive</a>
+
 <h1>Poems by Title</h1>
+
 
 <div id="poemButtons"></div>
 
@@ -68,59 +71,78 @@
       poemButtonsDiv.appendChild(btn);
     });
 
-  async function loadPoem(filename) {
-    try {
-      const response = await fetch(filename);
-      if (!response.ok) throw new Error('Poem file not found');
-      const xmlText = await response.text();
-      const parser = new DOMParser();
-      const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+  
+async function loadPoem(filename) {
+  try {
+    const response = await fetch(filename);
+    if (!response.ok) throw new Error('Poem file not found');
+    const xmlText = await response.text();
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
 
-      const poemElement = xmlDoc.querySelector('poem');
-      const poemId = poemElement?.getAttribute('id') || 'Unknown Poem ID';
+    const poemElement = xmlDoc.querySelector('poem');
+    // Get title from poemsMetadata
+    const meta = poemsMetadata.find(p => p.filename === filename);
+    const displayTitle = meta?.title || poemElement?.getAttribute('id') || 'Unknown Poem';
 
-      const lines = xmlDoc.querySelectorAll('l');
-      poemDisplay.innerHTML = ''; // Clear previous poem
+    const lines = xmlDoc.querySelectorAll('l');
+    poemDisplay.innerHTML = ''; // Clear previous poem
 
-      const poemIdEl = document.createElement('div');
-      poemIdEl.id = 'poem-id';
-      poemIdEl.textContent = `Poem ID: ${poemId}`;
-      poemDisplay.appendChild(poemIdEl);
+    const poemIdEl = document.createElement('div');
+    poemIdEl.id = 'poem-id';
+    poemIdEl.textContent = displayTitle; // Show title, not ID
+    poemDisplay.appendChild(poemIdEl);
 
-      lines.forEach(line => {
-        const lineNum = parseInt(line.getAttribute('n'), 10);
-        const words = Array.from(line.querySelectorAll('seg'));
+    lines.forEach((line, idx) => {
+      const lineNum = parseInt(line.getAttribute('n'), 10);
+      const words = Array.from(line.querySelectorAll('seg'));
 
-        const lineEl = document.createElement('div');
-        lineEl.className = 'line';
+      const lineEl = document.createElement('div');
+      lineEl.className = 'line';
+      if (idx % 2 === 1) lineEl.classList.add('shaded'); // Shade every other line
 
-        const numberEl = document.createElement('span');
-        numberEl.className = 'line-number';
+      const numberEl = document.createElement('span');
+      numberEl.className = 'line-number';
 
-        if (lineNum % 5 !== 0) {
-          numberEl.classList.add('hidden');
-        }
-        numberEl.textContent = lineNum;
-        lineEl.appendChild(numberEl);
+      if (lineNum % 5 !== 0) {
+        numberEl.classList.add('hidden');
+      }
+      numberEl.textContent = lineNum;
+      lineEl.appendChild(numberEl);
 
-        words.forEach(wordSeg => {
-          const span = document.createElement('span');
-          span.className = 'word';
-          span.textContent = wordSeg.textContent;
-          span.dataset.pos = wordSeg.getAttribute('pos') || 'N/A';
-          span.dataset.root = wordSeg.getAttribute('me_root') || 'N/A';
-          span.style.marginRight = '0.25em';
-          lineEl.appendChild(span);
-        });
-
-        poemDisplay.appendChild(lineEl);
+      words.forEach(wordSeg => {
+        const span = document.createElement('span');
+        span.className = 'word';
+        span.textContent = wordSeg.textContent;
+        span.dataset.pos = wordSeg.getAttribute('pos') || 'N/A';
+        span.dataset.root = wordSeg.getAttribute('me_root') || 'N/A';
+        span.style.marginRight = '0.25em';
+        lineEl.appendChild(span);
       });
-    } catch (err) {
-      poemDisplay.textContent = 'Error loading poem.';
-      console.error(err);
-    }
-  }
-</script>
 
+      poemDisplay.appendChild(lineEl);
+    });
+  } catch (err) {
+    poemDisplay.textContent = 'Error loading poem.';
+    console.error(err);
+  }
+}
+
+</script>
+<!-- Floating search button -->
+<button id="floatingSearchBtn" title="Search"><span aria-hidden="true">&#128269;</span></button>
+
+<!-- Search panel (initially hidden) -->
+<div id="side-panel">
+  <span id="closePanel" class="close-btn">&times;</span>
+  <h3>Search</h3>
+  <input id="searchInput" type="text" placeholder="Search for a word or phrase..." style="width:100%;margin-bottom:1em;">
+  <div style="margin-bottom:1em;">
+    <label><input type="radio" name="searchScope" value="current" checked> Current Poem</label>
+    <label style="margin-left:1em;"><input type="radio" name="searchScope" value="all"> All Poems</label>
+  </div>
+  <div id="searchResults">Search results will appear here.</div>
+</div>
+<script src="search.js"></script>
 </body>
 </html>

@@ -363,6 +363,9 @@ root. </p>
             <seg type="word" me_root="might" pos="n">might</seg>
         </l>
     </lg>
+    <!-- 
+    Saathvik Valvekar,
+    Commnented out the second stanza as it was not part of the original site
     <frag>
         <lg type="stanza" n="2" rhyme="royal">
             <l n="9">
@@ -397,4 +400,5 @@ root. </p>
             </l>
         </lg>
     </frag>
+    -->
 </poem>

@@ -498,10 +498,13 @@ root. </p>
             <seg type="word" me_root="me" pos="pron2%obj">me</seg>
             <seg type="word" me_root="purveien" pos="v%inf">purueye</seg>
         </l>
-        <l n=" 24 ">
+        <l n=" 25 "> <!-- Saathvik Valvekar, changed to 25 from 24 -->
             <seg type="word" me_root="moneie" pos="n">moneye</seg>
         </l>
     </lg>
+    <!-- 
+    Saathvik Valvekar,
+    Commnented out because it is not present in the original site
     <lg type="stanza" n="5" rhyme="royal">
         <l n=" 22 ">
             <seg type="word" me_root="that" pos="pron_rel">That</seg>
@@ -518,4 +521,5 @@ root. </p>
             <seg type="word" me_root="" pos="m">m</seg>
         </l>
     </lg>
+    -->
 </poem>

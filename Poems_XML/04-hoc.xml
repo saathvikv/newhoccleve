@@ -630,6 +630,9 @@ root. </p>
             <seg type="word" me_root="smal" pos="adj">smal</seg>
         </l>
     </lg>
+    <!--
+    Saathvik Valvekar, 
+    Commented out because it is not present in the original site
     <lg type="stanza" n="6" rhyme="royal">
         <l n=" 36 ">
             <seg type="word" me_root="and" pos="conj">And</seg>
@@ -696,4 +699,5 @@ root. </p>
             <seg type="word" me_root="me" pos="pron2%obj">me</seg>
         </l>
     </lg>
+    -->
 </poem>

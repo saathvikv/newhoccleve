@@ -37,13 +37,6 @@ button {
   visibility: hidden;
 }
 
-#poem-id {
-  font-weight: bold;
-  font-size: 1.1em;
-  margin: 1em 0;
-  color: #444;
-}
-
 #popup {
   position: absolute;
   background-color: #f9f9f9;
@@ -175,4 +168,9 @@ button {
   text-decoration: none;
   transform: scale(1.06);
   outline: none;
+}
+.stanza {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed #ccc;
 }

@@ -4602,6 +4602,9 @@ root. </p>
             <seg type="word" me_root="magnificence" pos="n">magnificence</seg>
         </l>
     </lg>
+    <!-- 
+    Saathvik Valvekar,
+    Commented out because it is not present in the original site
     <lg type="stanza" n="64" rhyme="royal">
         <l n=" 442 ">
             <seg type="word" me_root="shamen" pos="v%pr_3">Shameth</seg>
@@ -4681,4 +4684,5 @@ root. </p>
             <seg type="word" me_root="swich" pos="gram_">swich</seg>
         </l>
     </lg>
+    -->
 </poem>

@@ -643,7 +643,11 @@ root. </p>
             <seg type="word" me_root="to" pos="part">to</seg>
             <seg type="word" me_root="blessen" pos="v%inf">blesse</seg>
         </l>
+    
     </lg>
+    <!--
+    Saathvik Valvekar, 
+    Commented out because it is not present in the original site
     <lg type="stanza" n="6" rhyme="royal">
         <l n=" 36 ">
             <seg type="word" me_root="ai" pos="adv">Ay</seg>
@@ -691,7 +695,7 @@ root. </p>
             <seg type="word" me_root="in" pos="prep">in</seg>
             <seg type="word" me_root="criste-masse" pos="n">Cristemesse</seg>
         </l>
-        <l n=" 40 ">
+        <l n=" 4 ">
             <seg type="word" me_root="of" pos="prep">of</seg>
             <seg type="word" me_root="gladnesse" pos="n">gladnesse</seg>
         </l>
@@ -713,4 +717,5 @@ root. </p>
             <seg type="word" me_root="here" pos="pron">hir</seg>
         </l>
     </lg>
+    -->
 </poem>

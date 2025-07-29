@@ -303,6 +303,7 @@ root. </p>
 -->
 
 <poem id="07-hoc">
+    <title title_type="HUNTINGTON HM 111">Ad Beatam Virginem</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n=" 1 ">
             <seg type="word" me_root="moder" pos="n">Modir</seg>
@@ -1448,6 +1449,9 @@ root. </p>
             <seg type="word" me_root="his" pos="pron1%gen">his</seg>
             <seg type="word" me_root="grave" pos="n1">grave</seg>
         </l>
+    <!-- 
+    Saathvik Valvekar, 
+    Commented out because it is not part of the original site
     </lg>
     <lg type="stanza" n="19" rhyme="royal">
         <l n=" 120 ">
@@ -1463,5 +1467,6 @@ root. </p>
             <seg type="word" me_root="mouen" pos="v3%pr_3">may</seg>
             <seg type="word" me_root="haven" pos="v%">have</seg>
         </l>
+        -->
     </lg>
 </poem>

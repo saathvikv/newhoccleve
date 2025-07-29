@@ -303,6 +303,7 @@ root. </p>
 -->
 
 <poem id="06-hoc">
+    <title title_type="HUNTINGTON HM 111">Two Balades to Henry V and the Knights of the Garter [Ballad #2]</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n=" 1 ">
             <seg type="word" me_root="ye" pos="pron%pl%nom">Yee</seg>
@@ -575,6 +576,9 @@ root. </p>
             <seg type="word" me_root="variaunce" pos="n">variance</seg>
         </l>
     </lg>
+    <!--
+    Saathvik Valvekar,
+    Commented out because it is not preesent in the original site
     <lg type="stanza" n="5" rhyme="royal">
         <l n=" 29 ">
             <seg type="word" me_root="lord" pos="n">Lord</seg>
@@ -624,4 +628,5 @@ root. </p>
             <seg type="word" me_root="ble" pos="blissid{*ble">blissid</seg>
         </l>
     </lg>
+    -->
 </poem>

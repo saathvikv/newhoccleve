@@ -258,6 +258,7 @@ root. </p>
 -->
 
 <poem id="19-hoc">
+    <title title_type="HUNTINGTON HM 744">The Letter of Cupid to Lovers, his Subjects</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
             <seg type="word" me_root="cupide" pos="n#propn">Cupido</seg>

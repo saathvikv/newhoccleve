@@ -2,29 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Hoccleve Poem Archive</title>
+  <title>Hoccleve Archive</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Center the heading */
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+    /* Move the buttons container down slightly */
+    #viewButtons {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      margin-bottom: 2em;
+    }
+    #viewButtons button {
+      padding: 0.8em 1.5em;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: #f0f0f0;
+      transition: background-color 0.3s ease;
+    }
+    #viewButtons button:hover {
+      background-color: #ddd;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Hoccleve Poem Archive</h1>
+  <h1>Hoccleve Archive</h1>
 
-<label for="poemSelector">Select a poem:</label>
-<select id="poemSelector">
-  <option value="" disabled selected>Select a poem</option>
-</select>
+  <div id="viewButtons">
+    <button id="byTitleBtn">View by EETS Facsimile Edition Title</button>
+    <button id="byManuscriptBtn">View by Manuscript</button>
+  </div>
 
-<div id="poem">Select a poem to view.</div>
+  <script>
+    document.getElementById('byTitleBtn').addEventListener('click', () => {
+      window.location.href = 'byTitle.html';
+    });
+    document.getElementById('byManuscriptBtn').addEventListener('click', () => {
+      window.location.href = 'byManuscript.html';
+    });
+  </script>
 
-<div id="popup"></div>
-
-<div id="side-panel">
-  <span class="close-btn" id="closePanel">&times;</span>
-  <h3>Search</h3>
-  <input type="text" id="searchInput" placeholder="Type to search..." style="width: 100%; padding: 0.3em; margin-bottom: 1em;" />
-  <div id="searchResults">Search results will appear here.</div>
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>

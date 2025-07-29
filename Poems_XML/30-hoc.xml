@@ -258,6 +258,7 @@ root. </p>
 -->
 
 <poem id="30-hoc">
+    <title title_type="HUNTINGTON HM 744">Three Roundels - Lady Money's scornful answer</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n=" 1 ">
             <seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
@@ -486,11 +487,14 @@ root. </p>
             <seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
             <seg type="word" me_root="thre" pos="num#adj">three</seg>
         </l>
-        <l n=" 24 ">
+        <l n=" 25 "> <!-- Saathvik Valvekar, changed to 25 from 24-->
             <seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
             <seg type="word" me_root="ben" pos="v%inf">be</seg>
         </l>
     </lg>
+    <!--
+    Saathvik Valvekar,
+    Commenented out because it is not present in the original site
     <lg type="stanza" n="5" rhyme="royal">
         <l n=" 22 ">
             <seg type="word" me_root="ich" pos="pron%nom">I</seg>
@@ -511,4 +515,5 @@ root. </p>
             <seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
         </l>
     </lg>
+    -->
 </poem>

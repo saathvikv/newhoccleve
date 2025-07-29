@@ -290,6 +290,7 @@ root. </p>
 </teiHeader>
 -->
 <poem id="35-hoc">
+    <title title_type="HUNTINGTON HM 111">Dialog with a Friend</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
             <seg type="word" me_root="and" pos="conj">And</seg>

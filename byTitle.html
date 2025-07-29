@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>View Poems by Title</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      max-width: 900px;
+      margin: 2em auto;
+      font-family: Georgia, serif;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+    #poemButtons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.2em;
+    }
+    #poemButtons button {
+      padding: 1em;
+      font-size: 1rem;
+      cursor: pointer;
+      border: 2px solid #444;
+      border-radius: 10px;
+      background-color: #fafafa;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      white-space: normal;
+    }
+    #poemButtons button:hover {
+      background-color: #e0e0e0;
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+    }
+    #poemDisplay {
+      margin-top: 2em;
+      border-top: 1px solid #ccc;
+      padding-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+<a href="index.html" class="big-button" style="display:block; width:max-content; margin: 0 auto 2em auto; text-align:center;">Hoccleve Archive</a>
+
+<h1>Poems by Title</h1>
+
+
+<div id="poemButtons"></div>
+
+<div id="poemDisplay">Select a poem to view.</div>
+
+<script src="poemsMetadata.js"></script>
+<script>
+  const poemButtonsDiv = document.getElementById('poemButtons');
+  const poemDisplay = document.getElementById('poemDisplay');
+
+  // Generate buttons for all poems sorted by title alphabetically
+  poemsMetadata
+    .slice() // clone to not mutate original
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .forEach(poem => {
+      const btn = document.createElement('button');
+      btn.textContent = poem.title;
+      btn.addEventListener('click', () => {
+        loadPoem(poem.filename);
+      });
+      poemButtonsDiv.appendChild(btn);
+    });
+    
+
+</script>
+<!-- Floating search button -->
+<button id="floatingSearchBtn" title="Search"><span aria-hidden="true">&#128269;</span></button>
+
+<!-- Search panel (initially hidden) -->
+<div id="side-panel">
+  <span id="closePanel" class="close-btn">&times;</span>
+  <h3>Search</h3>
+  <input id="searchInput" type="text" placeholder="Search for a word or phrase..." style="width:100%;margin-bottom:1em;">
+  <div style="margin-bottom:1em;">
+    <label><input type="radio" name="searchScope" value="current" checked> Current Poem</label>
+    <label style="margin-left:1em;"><input type="radio" name="searchScope" value="all"> All Poems</label>
+  </div>
+  <div id="searchResults">Search results will appear here.</div>
+</div>
+<script src="search.js"></script>
+<script src="loadPoem.js"></script>
+</body>
+</html>

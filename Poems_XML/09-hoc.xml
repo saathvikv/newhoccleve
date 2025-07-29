@@ -303,6 +303,7 @@ root. </p>
 -->
 
 <poem id="09-hoc">
+    <title title_type="HUNTINGTON HM 111">Balade to my gracious Lord of York</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n=" 1 ">
             <seg type="word" me_root="gon" pos="v%imp">Go,</seg>
@@ -1007,7 +1008,7 @@ root. </p>
             <seg type="word" me_root="ani" pos="gram_adj">any</seg>
             <seg type="word" me_root="plesaunce" pos="n1">plesance</seg>
         </l>
-        <l n=" 70 ">
+        <l n=" 73 "> <!--->Saathvik Valvekar, changed from 70 to 73-->
             <seg type="word" me_root="happen" pos="v1%inf">Happe</seg>
             <seg type="word" me_root="mouen" pos="v3%pt_3">mighte</seg>
             <seg type="word" me_root="on" pos="prep">on</seg>
@@ -1016,9 +1017,13 @@ root. </p>
             <seg type="word" me_root="suffisaunce" pos="n">souffissance</seg>
         </l>
     </lg>
+    <!---
+    Saathvik Valvekar, 
+    Commented out because full text as in the original site, is not present here
     <lg type="stanza" n="12" rhyme="royal">
         <l n=" 71 ">
             <seg type="word" me_root="to" pos="prep">To</seg>
         </l>
     </lg>
+    -->
 </poem>

@@ -6,9 +6,16 @@ body {
   margin: auto;
 }
 
-select {
+button {
   font-size: 1rem;
-  margin-bottom: 1.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+}
+
+#lineSelector, #poemList {
+  margin-top: 1em;
 }
 
 .line {
@@ -28,13 +35,6 @@ select {
 
 .line-number.hidden {
   visibility: hidden;
-}
-
-#poem-id {
-  font-weight: bold;
-  font-size: 1.1em;
-  margin: 1em 0;
-  color: #444;
 }
 
 #popup {
@@ -80,4 +80,97 @@ select {
 .word {
   cursor: pointer;
   user-select: text;
+}
+
+.line.shaded {
+  background-color: #f3f3f3;
+}
+
+#floatingSearchBtn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 1200;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  font-size: 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#floatingSearchBtn:hover {
+  background: #222;
+}
+
+
+.big-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(37,117,252,0.7);
+  text-decoration: none;
+}
+
+.poem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 2em 0;
+}
+
+.poem-grid button {
+  background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+  color: white;
+  font-size: 1rem;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(24,90,157,0.6);
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.poem-grid button:hover {
+  background: linear-gradient(135deg, #6dd5fa 0%, #2980b9 100%);
+  transform: scale(1.05);
+}
+/* Add or update this block for the .big-button homepage link */
+.big-button {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  z-index: 100;
+  background: linear-gradient(135deg, #cdd7d4 0%, #092139 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(24,90,157,0.13);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: background 0.3s, box-shadow 0.2s, transform 0.15s;
+  display: inline-block;
+}
+
+.big-button:hover, .big-button:focus {
+  background: linear-gradient(135deg, #417d94 0%, #0b1b25 100%);
+  box-shadow: 0 10px 20px rgba(37,117,252,0.18);
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.06);
+  outline: none;
+}
+.stanza {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed #ccc;
 }

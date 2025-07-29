@@ -290,6 +290,7 @@ root. </p>
 </teiHeader>
 -->
 <poem id="39-hoc">
+    <title title_type="HUNTINGTON HM 111">Hoccleve's Dedication to Lady Westmoreland</title>
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
             <seg type="word" me_root="gon" pos="v%imp">Go,</seg>
@@ -362,6 +363,9 @@ root. </p>
             <seg type="word" me_root="might" pos="n">might</seg>
         </l>
     </lg>
+    <!-- 
+    Saathvik Valvekar,
+    Commnented out the second stanza as it was not part of the original site
     <frag>
         <lg type="stanza" n="2" rhyme="royal">
             <l n="9">
@@ -396,4 +400,5 @@ root. </p>
             </l>
         </lg>
     </frag>
+    -->
 </poem>

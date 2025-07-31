@@ -53,7 +53,7 @@ async function loadPoem(filename) {
           span.className = 'word';
           span.textContent = wordSeg.textContent;
           span.dataset.pos = wordSeg.getAttribute('pos') || 'N/A';
-          span.dataset.root = wordSeg.getAttribute('me_root') || 'N/A';
+          span.setAttribute('data-me-root', wordSeg.getAttribute('me_root') || '');
           span.style.marginRight = '0.25em';
           lineEl.appendChild(span);
         });

@@ -14,10 +14,6 @@ button {
   cursor: pointer;
 }
 
-#lineSelector, #poemList {
-  margin-top: 1em;
-}
-
 .line {
   display: flex;
   white-space: pre-wrap;

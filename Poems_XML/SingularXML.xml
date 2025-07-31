@@ -1,3 +1,4 @@
+<poems>
 <poem id="01-hoc">
     <lg type="stanza" n="1" rhyme="royal">
         <l n="1">
@@ -7067,7 +7068,6 @@
 
 
 <frag>
-</l>
 <l n="510">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="that" pos="pron">that</seg>
@@ -7081,7 +7081,7 @@
 
 <poem id="03-hoc">
 
-<lg type="stanza" n=1 rhyme="royal">
+<lg type="stanza" n= "1" rhyme="royal">
 <l n=" 1 ">
 <seg type="word" me_root="o" pos="interj">O</seg>
 <seg type="word" me_root="preciouse" pos="adj">precious</seg>
@@ -7139,7 +7139,7 @@
 <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
 </l>
 </lg>
-<lg type="stanza" n=2 rhyme="royal">
+<lg type="stanza" n="2" rhyme="royal">
 <l n=" 8 ">
 <seg type="word" me_root="ertheli" pos="adj">Eerthely</seg>
 <seg type="word" me_root="god" pos="n1#propn">God,</seg>
@@ -7205,7 +7205,7 @@
 <seg type="word" me_root="bar" pos="adj">bare</seg>
 </l>
 </lg>
-<lg type="stanza" n=3 rhyme="royal">
+<lg type="stanza" n= "3" rhyme="royal">
 <l n=" 15 ">
 <seg type="word" me_root="of" pos="prep">Of</seg>
 <seg type="word" me_root="joie" pos="n">joie</seg>
@@ -7275,7 +7275,7 @@
 <seg type="word" me_root="ignoraunce" pos="n">ignorance</seg>
 </l>
 </lg>
-<lg type="stanza" n=4 rhyme="royal">
+<lg type="stanza" n="4" rhyme="royal">
 <l n=" 22 ">
 <seg type="word" me_root="unto" pos="prep">Vnto</seg>
 <seg type="word" me_root="siknesse" pos="n">seeknesse</seg>
@@ -7345,7 +7345,7 @@
 <seg type="word" me_root="lore" pos="n2">lore</seg>
 </l>
 </lg>
-<lg type="stanza" n=5 rhyme="royal">
+<lg type="stanza" n="5" rhyme="royal">
 <l n=" 29 ">
 <seg type="word" me_root="haven" pos="v%pt_1">Had</seg>
 <seg type="word" me_root="ich" pos="pron%nom">I</seg>
@@ -7419,7 +7419,7 @@
 <seg type="word" me_root="so" pos="adv">so</seg>
 </l>
 </lg>
-<lg type="stanza" n=6 rhyme="royal">
+<lg type="stanza" n="6" rhyme="royal">
 <l n=" 36 ">
 <seg type="word" me_root="for" pos="conj">For</seg>
 <seg type="word" me_root="ich" pos="pron%nom">I</seg>
@@ -7489,7 +7489,7 @@
 <seg type="word" me_root="she" pos="pron%nom">shee</seg>
 </l>
 </lg>
-<lg type="stanza" n=7 rhyme="royal">
+<lg type="stanza" n="7" rhyme="royal">
 <l n=" 43 ">
 <seg type="word" me_root="but" pos="conj">But</seg>
 <seg type="word" me_root="of" pos="prep">of</seg>
@@ -7556,7 +7556,7 @@
 <seg type="word" me_root="reverence" pos="n">reuerence</seg>
 </l>
 </lg>
-<lg type="stanza" n=8 rhyme="royal">
+<lg type="stanza" n="8" rhyme="royal">
 <l n=" 50 ">
 <seg type="word" me_root="unto" pos="prep">Vnto</seg>
 <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
@@ -7624,7 +7624,7 @@
 <seg type="word" me_root="exilen" pos="v%inf">exyle</seg>
 </l>
 </lg>
-<lg type="stanza" n=9 rhyme="royal">
+<lg type="stanza" n="9" rhyme="royal">
 <l n=" 57 ">
 <seg type="word" me_root="but" pos="conj">But</seg>
 <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
@@ -7688,7 +7688,7 @@
 <seg type="word" me_root="warien" pos="v%inf">warie</seg>
 </l>
 </lg>
-<lg type="stanza" n=10 rhyme="royal">
+<lg type="stanza" n="10" rhyme="royal">
 <l n=" 64 ">
 <seg type="word" me_root="the" pos="def_art">The</seg>
 <seg type="word" me_root="sed" pos="n">seed</seg>
@@ -7754,7 +7754,7 @@
 <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
 </l>
 </lg>
-<lg type="stanza" n=11 rhyme="royal">
+<lg type="stanza" n="11" rhyme="royal">
 <l n=" 71 ">
 <seg type="word" me_root="sin" pos="conj">Syn</seg>
 <seg type="word" me_root="resoun" pos="n2">resoun</seg>
@@ -7822,7 +7822,7 @@
 <seg type="word" me_root="al" pos="gram_adjas_n">alle</seg>
 </l>
 </lg>
-<lg type="stanza" n=12 rhyme="royal">
+<lg type="stanza" n="12" rhyme="royal">
 <l n=" 78 ">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="forth" pos="adv">foorth</seg>
@@ -7885,7 +7885,7 @@
 <seg type="word" me_root="consenten" pos="v%inf">consente</seg>
 </l>
 </lg>
-<lg type="stanza" n=13 rhyme="royal">
+<lg type="stanza" n="13" rhyme="royal">
 <l n=" 85 ">
 <seg type="word" me_root="to" pos="part">To</seg>
 <seg type="word" me_root="don" pos="v1%inf">doon</seg>
@@ -7953,7 +7953,7 @@
 <seg type="word" me_root="softe" pos="adj">softe</seg>
 </l>
 </lg>
-<lg type="stanza" n=14 rhyme="royal">
+<lg type="stanza" n="14" rhyme="royal">
 <l n=" 92 ">
 <seg type="word" me_root="a" pos="indef_art">A</seg>
 <seg type="word" me_root="lite" pos="n3">lyte</seg>
@@ -8023,7 +8023,7 @@
 <seg type="word" me_root="office" pos="n">office</seg>
 </l>
 </lg>
-<lg type="stanza" n=15 rhyme="royal">
+<lg type="stanza" n="15" rhyme="royal">
 <l n=" 99 ">
 <seg type="word" me_root="righte" pos="adv">Right</seg>
 <seg type="word" me_root="so" pos="adv">so</seg>
@@ -8093,7 +8093,7 @@
 <seg type="word" me_root="best" pos="adjas_n%sup">beste</seg>
 </l>
 </lg>
-<lg type="stanza" n=16 rhyme="royal">
+<lg type="stanza" n="16" rhyme="royal">
 <l n=" 106 ">
 <seg type="word" me_root="to" pos="part">To</seg>
 <seg type="word" me_root="eten" pos="v%inf">ete</seg>
@@ -8159,7 +8159,7 @@
 <seg type="word" me_root="me" pos="pron2%obj">me</seg>
 </l>
 </lg>
-<lg type="stanza" n=17 rhyme="royal">
+<lg type="stanza" n="17" rhyme="royal">
 <l n=" 113 ">
 <seg type="word" me_root="the" pos="def_art">The</seg>
 <seg type="word" me_root="custume" pos="n">custume</seg>
@@ -8220,7 +8220,7 @@
 <seg type="word" me_root="wage" pos="n">wage</seg>
 </l>
 </lg>
-<lg type="stanza" n=18 rhyme="royal">
+<lg type="stanza" n="18" rhyme="royal">
 <l n=" 120 ">
 <seg type="word" me_root="so" pos="adv">So</seg>
 <seg type="word" me_root="that" pos="conj">that</seg>
@@ -8291,7 +8291,7 @@
 <seg type="word" me_root="me" pos="pron2%obj">me</seg>
 </l>
 </lg>
-<lg type="stanza" n=19 rhyme="royal">
+<lg type="stanza" n="19" rhyme="royal">
 <l n=" 127 ">
 <seg type="word" me_root="but" pos="conj">But</seg>
 <seg type="word" me_root="if" pos="conj">if</seg>
@@ -8360,7 +8360,7 @@
 <seg type="word" me_root="compaignie" pos="n">conpaignie</seg>
 </l>
 </lg>
-<lg type="stanza" n=20 rhyme="royal">
+<lg type="stanza" n="20" rhyme="royal">
 <l n=" 134 ">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="hevi" pos="adj">heuy</seg>
@@ -8427,7 +8427,7 @@
 <seg type="word" me_root="manere" pos="n">maneere</seg>
 </l>
 </lg>
-<lg type="stanza" n=21 rhyme="royal">
+<lg type="stanza" n="21" rhyme="royal">
 <l n=" 141 ">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="feden" pos="v%inf">feede</seg>
@@ -8494,7 +8494,7 @@
 <seg type="word" me_root="likerous" pos="adj">likerous</seg>
 </l>
 </lg>
-<lg type="stanza" n=22 rhyme="royal">
+<lg type="stanza" n="22" rhyme="royal">
 <l n=" 148 ">
 <seg type="word" me_root="wher-as" pos="adv">Whereas</seg>
 <seg type="word" me_root="thei" pos="pron%pl_nom">they</seg>
@@ -8568,7 +8568,7 @@
 <seg type="word" me_root="nede" pos="n1">neede</seg>
 </l>
 </lg>
-<lg type="stanza" n=23 rhyme="royal">
+<lg type="stanza" n="23" rhyme="royal">
 <l n=" 155 ">
 <seg type="word" me_root="haven" pos="v%pt_1">Had</seg>
 <seg type="word" me_root="ich" pos="pron%nom">I</seg>
@@ -8645,7 +8645,7 @@
 <seg type="word" me_root="custume" pos="n">custume</seg>
 </l>
 </lg>
-<lg type="stanza" n=24 rhyme="royal">
+<lg type="stanza" n="24" rhyme="royal">
 <l n=" 162 ">
 <seg type="word" me_root="at" pos="prep">At</seg>
 <seg type="word" me_root="short" pos="adj">shorte</seg>
@@ -8712,7 +8712,7 @@
 <seg type="word" me_root="offenden" pos="v%pr_3">offendith</seg>
 </l>
 </lg>
-<lg type="stanza" n=25 rhyme="royal">
+<lg type="stanza" n="25" rhyme="royal">
 <l n=" 169 ">
 <seg type="word" me_root="but" pos="conj">But</seg>
 <seg type="word" me_root="on" pos="num#adj">oon</seg>
@@ -8784,7 +8784,7 @@
 <seg type="word" me_root="weght" pos="n1">wighte</seg>
 </l>
 </lg>
-<lg type="stanza" n=26 rhyme="royal">
+<lg type="stanza" n="26" rhyme="royal">
 <l n=" 176 ">
 <seg type="word" me_root="so" pos="adv">So</seg>
 <seg type="word" me_root="that" pos="conj">that</seg>
@@ -8850,7 +8850,7 @@
 <seg type="word" me_root="willen" pos="v%pt_pl">wolde</seg>
 </l>
 </lg>
-<lg type="stanza" n=27 rhyme="royal">
+<lg type="stanza" n="27" rhyme="royal">
 <l n=" 183 ">
 <seg type="word" me_root="wher-for" pos="adv">Wherfore</seg>
 <seg type="word" me_root="ich" pos="pron%nom">I</seg>
@@ -8915,7 +8915,7 @@
 <seg type="word" me_root="superfluite" pos="n">superfluitee</seg>
 </l>
 </lg>
-<lg type="stanza" n=28 rhyme="royal">
+<lg type="stanza" n="28" rhyme="royal">
 <l n=" 190 ">
 <seg type="word" me_root="to" pos="part">To</seg>
 <seg type="word" me_root="walken" pos="v1%inf">walke</seg>
@@ -8988,7 +8988,7 @@
 <seg type="word" me_root="agon" pos="v%ppl_abs">ago</seg>
 </l>
 </lg>
-<lg type="stanza" n=29 rhyme="royal">
+<lg type="stanza" n="29" rhyme="royal">
 <l n=" 197 ">
 <seg type="word" me_root="with" pos="prep">With</seg>
 <seg type="word" me_root="hem" pos="pron%pl_obj">hem</seg>
@@ -9056,7 +9056,7 @@
 <seg type="word" me_root="ever" pos="adv">evere</seg>
 </l>
 </lg>
-<lg type="stanza" n=30 rhyme="royal">
+<lg type="stanza" n="30" rhyme="royal">
 <l n=" 204 ">
 <seg type="word" me_root="so" pos="adv">So</seg>
 <seg type="word" me_root="tikelen" pos="v%pt_3">tikelid</seg>
@@ -9125,7 +9125,7 @@
 <seg type="word" me_root="degre" pos="n">degree</seg>
 </l>
 </lg>
-<lg type="stanza" n=31 rhyme="royal">
+<lg type="stanza" n="31" rhyme="royal">
 <l n=" 211 ">
 <seg type="word" me_root="hou" pos="adv_conj">How</seg>
 <seg type="word" me_root="that" pos="part">that</seg>
@@ -9187,7 +9187,7 @@
 <seg type="word" me_root="seien" pos="v1%pr_3">seith</seg>
 </l>
 </lg>
-<lg type="stanza" n=32 rhyme="royal">
+<lg type="stanza" n="32" rhyme="royal">
 <l n=" 218 ">
 <seg type="word" me_root="that" pos="conj">That</seg>
 <seg type="word" me_root="al" pos="gram_adj">al</seg>
@@ -9252,7 +9252,7 @@
 <seg type="word" me_root="amis" pos="adv">amis</seg>
 </l>
 </lg>
-<lg type="stanza" n=33 rhyme="royal">
+<lg type="stanza" n="33" rhyme="royal">
 <l n=" 225 ">
 <seg type="word" me_root="tho" pos="gram_adj">Tho</seg>
 <seg type="word" me_root="combre-world" pos="n%pl">combreworldes</seg>
@@ -9319,7 +9319,7 @@
 <seg type="word" me_root="breden" pos="v3%ppl_abs">bred</seg>
 </l>
 </lg>
-<lg type="stanza" n=34 rhyme="royal">
+<lg type="stanza" n="34" rhyme="royal">
 <l n=" 232 ">
 <seg type="word" me_root="no" pos="gram_adj">No</seg>
 <seg type="word" me_root="more" pos="adv%comp">more</seg>
@@ -9387,7 +9387,7 @@
 <seg type="word" me_root="aslepe" pos="adv1">asleepe</seg>
 </l>
 </lg>
-<lg type="stanza" n=35 rhyme="royal">
+<lg type="stanza" n="35" rhyme="royal">
 <l n=" 239 ">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="bi" pos="prep">by</seg>
@@ -9456,7 +9456,7 @@
 <seg type="word" me_root="crime" pos="n">cryme</seg>
 </l>
 </lg>
-<lg type="stanza" n=36 rhyme="royal">
+<lg type="stanza" n="36" rhyme="royal">
 <l n=" 246 ">
 <seg type="word" me_root="ye" pos="pron%pl%nom">Yee</seg>
 <seg type="word" me_root="mouen" pos="v3%pr_pl">may</seg>
@@ -9524,7 +9524,7 @@
 <seg type="word" me_root="policie" pos="n">policie</seg>
 </l>
 </lg>
-<lg type="stanza" n=37 rhyme="royal">
+<lg type="stanza" n="37" rhyme="royal">
 <l n=" 253 ">
 <seg type="word" me_root="al" pos="gram_adj">Alle</seg>
 <seg type="word" me_root="ere" pos="n1%pl">eres</seg>
@@ -9593,7 +9593,7 @@
 <seg type="word" me_root="agasten" pos="v%ppl">agast</seg>
 </l>
 </lg>
-<lg type="stanza" n=38 rhyme="royal">
+<lg type="stanza" n="38" rhyme="royal">
 <l n=" 260 ">
 <seg type="word" me_root="o" pos="interj">O</seg>
 <seg type="word" me_root="flaterie" pos="n">flaterie,</seg>
@@ -9660,7 +9660,7 @@
 <seg type="word" me_root="chere" pos="n1">cheere</seg>
 </l>
 </lg>
-<lg type="stanza" n=39 rhyme="royal">
+<lg type="stanza" n="39" rhyme="royal">
 <l n=" 267 ">
 <seg type="word" me_root="thou" pos="pron%nom">Thow</seg>
 <seg type="word" me_root="supporten" pos="v%pr_2">supportist</seg>
@@ -9726,7 +9726,7 @@
 <seg type="word" me_root="avisen" pos="v%ppl_abs">auysid</seg>
 </l>
 </lg>
-<lg type="stanza" n=40 rhyme="royal">
+<lg type="stanza" n="40" rhyme="royal">
 <l n=" 274 ">
 <seg type="word" me_root="with" pos="prep">With</seg>
 <seg type="word" me_root="sad" pos="adj">sad</seg>
@@ -9789,7 +9789,7 @@
 <seg type="word" me_root="mischaunce" pos="n">meschance</seg>
 </l>
 </lg>
-<lg type="stanza" n=41 rhyme="royal">
+<lg type="stanza" n="41" rhyme="royal">
 <l n=" 281 ">
 <seg type="word" me_root="man" pos="n%pl">Men</seg>
 <seg type="word" me_root="setten" pos="v%pr_pl">setten</seg>
@@ -9857,7 +9857,7 @@
 <seg type="word" me_root="tricen" pos="v%inf">tryce</seg>
 </l>
 </lg>
-<lg type="stanza" n=42 rhyme="royal">
+<lg type="stanza" n="42" rhyme="royal">
 <l n=" 288 ">
 <seg type="word" me_root="no" pos="gram_adj">No</seg>
 <seg type="word" me_root="lengere" pos="adv%comp">lenger</seg>
@@ -9927,7 +9927,7 @@
 <seg type="word" me_root="wone" pos="n">wone</seg>
 </l>
 </lg>
-<lg type="stanza" n=43 rhyme="royal">
+<lg type="stanza" n="43" rhyme="royal">
 <l n=" 295 ">
 <seg type="word" me_root="but" pos="conj">But</seg>
 <seg type="word" me_root="nou" pos="adv">now</seg>
@@ -9987,7 +9987,7 @@
 <seg type="word" me_root="malencolie" pos="n">malencolie</seg>
 </l>
 </lg>
-<lg type="stanza" n=44 rhyme="royal">
+<lg type="stanza" n="44" rhyme="royal">
 <l n=" 302 ">
 <seg type="word" me_root="malencolie" pos="n">Malencolie</seg>
 <seg type="word" me_root="engendren" pos="v%pr_3">engendrith</seg>
@@ -10057,7 +10057,7 @@
 <seg type="word" me_root="enduren" pos="v%inf">endure</seg>
 </l>
 </lg>
-<lg type="stanza" n=45 rhyme="royal">
+<lg type="stanza" n="45" rhyme="royal">
 <l n=" 309 ">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="to" pos="prep">to</seg>
@@ -10128,7 +10128,7 @@
 <seg type="word" me_root="bed" pos="n1">bed</seg>
 </l>
 </lg>
-<lg type="stanza" n=46 rhyme="royal">
+<lg type="stanza" n="46" rhyme="royal">
 <l n=" 316 ">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="bathen" pos="v%pt_1">bathid</seg>
@@ -10201,7 +10201,7 @@
 <seg type="word" me_root="me" pos="pron2%obj">me</seg>
 </l>
 </lg>
-<lg type="stanza" n=47 rhyme="royal">
+<lg type="stanza" n="47" rhyme="royal">
 <l n=" 323 ">
 <seg type="word" me_root="but" pos="conj">But</seg>
 <seg type="word" me_root="often" pos="adv">often</seg>
@@ -10280,7 +10280,7 @@
 <seg type="word" me_root="me" pos="pron2%obj">me</seg>
 </l>
 </lg>
-<lg type="stanza" n=48 rhyme="royal">
+<lg type="stanza" n="48" rhyme="royal">
 <l n=" 330 ">
 <seg type="word" me_root="that" pos="pron_rel">That</seg>
 <seg type="word" me_root="mirour" pos="n">mirour</seg>
@@ -10343,7 +10343,7 @@
 <seg type="word" me_root="wise" pos="n2">wyse</seg>
 </l>
 </lg>
-<lg type="stanza" n=49 rhyme="royal">
+<lg type="stanza" n="49" rhyme="royal">
 <l n=" 337 ">
 <seg type="word" me_root="but" pos="conj">But</seg>
 <seg type="word" me_root="to" pos="prep">to</seg>
@@ -10412,7 +10412,7 @@
 <seg type="word" me_root="chainen" pos="v%ppl">cheyned</seg>
 </l>
 </lg>
-<lg type="stanza" n=50 rhyme="royal">
+<lg type="stanza" n="50" rhyme="royal">
 <l n=" 344 ">
 <seg type="word" me_root="to" pos="prep">To</seg>
 <seg type="word" me_root="excess" pos="n">excesse</seg>
@@ -10480,7 +10480,7 @@
 <seg type="word" me_root="hevinesse" pos="n">heuynesse</seg>
 </l>
 </lg>
-<lg type="stanza" n=51 rhyme="royal">
+<lg type="stanza" n="51" rhyme="royal">
 <l n=" 351 ">
 <seg type="word" me_root="ben" pos="v%imp">Be</seg>
 <seg type="word" me_root="ware" pos="adj">waar</seg>
@@ -10540,7 +10540,7 @@
 <seg type="word" me_root="risen" pos="v%pr_3">ryse</seg>
 </l>
 </lg>
-<lg type="stanza" n=52 rhyme="royal">
+<lg type="stanza" n="52" rhyme="royal">
 <l n=" 358 ">
 <seg type="word" me_root="as" pos="conj">As</seg>
 <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
@@ -10608,7 +10608,7 @@
 <seg type="word" me_root="wenen" pos="v2%pr_1">weene</seg>
 </l>
 </lg>
-<lg type="stanza" n=53 rhyme="royal">
+<lg type="stanza" n="53" rhyme="royal">
 <l n=" 365 ">
 <seg type="word" me_root="thin" pos="pron%gen">Thy</seg>
 <seg type="word" me_root="lucre" pos="n">lucre</seg>
@@ -10682,7 +10682,7 @@
 <seg type="word" me_root="waste" pos="n">waast</seg>
 </l>
 </lg>
-<lg type="stanza" n=54 rhyme="royal">
+<lg type="stanza" n="54" rhyme="royal">
 <l n=" 372 ">
 <seg type="word" me_root="avisen" pos="v%imp">Auyse</seg>
 <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
@@ -10750,7 +10750,7 @@
 <seg type="word" me_root="laue" pos="n">lawe</seg>
 </l>
 </lg>
-<lg type="stanza" n=55 rhyme="royal">
+<lg type="stanza" n="55" rhyme="royal">
 <l n=" 379 ">
 <seg type="word" me_root="than" pos="conj">Than</seg>
 <seg type="word" me_root="he" pos="pron1%nom">he</seg>
@@ -10826,7 +10826,7 @@
 <seg type="word" me_root="ben" pos="v%inf">be</seg>
 </l>
 </lg>
-<lg type="stanza" n=56 rhyme="royal">
+<lg type="stanza" n="56" rhyme="royal">
 <l n=" 386 ">
 <seg type="word" me_root="and" pos="conj">And</seg>
 <seg type="word" me_root="if" pos="conj">if</seg>
@@ -10900,7 +10900,7 @@
 <seg type="word" me_root="assent" pos="n">assent</seg>
 </l>
 </lg>
-<lg type="stanza" n=57 rhyme="royal">
+<lg type="stanza" n="57" rhyme="royal">
 <l n=" 393 ">
 <seg type="word" me_root="ei" pos="interj">Ey,</seg>
 <seg type="word" me_root="what" pos="pron">what</seg>
@@ -10970,7 +10970,7 @@
                 <seg type="word" me_root="wauen" pos="v%inf">waue</seg>
                 </l>
                 </lg>
-                <lg type="stanza" n=58 rhyme="royal">
+                <lg type="stanza" n="58" rhyme="royal">
                 <l n=" 400 ">
                 <seg type="word" me_root="to" pos="part">To</seg>
                 <seg type="word" me_root="recorden" pos="v%inf">recorde</seg>
@@ -10994,470 +10994,470 @@
                     <seg type="word" me_root="lord" pos="n">lord</seg>
                     <seg type="word" me_root="mekli" pos="adv">meekly</seg>
                     <seg type="word" me_root="submitten" pos="v%pr_1">submitte</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
 </l>
 <l n=" 403 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ben"pos="v%pr_1">am</seg>
-<seg type="word" me_root="contrit"pos="adj">contryt</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="ful"pos="adj">ful</seg>
-<seg type="word" me_root="repentaunce"pos="n">repentance</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="ben" pos="v%pr_1">am</seg>
+<seg type="word" me_root="contrit" pos="adj">contryt</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="of" pos="prep">of</seg>
+<seg type="word" me_root="ful" pos="adj">ful</seg>
+<seg type="word" me_root="repentaunce" pos="n">repentance</seg>
 </l>
 <l n=" 404 ">
-<seg type="word" me_root="that"pos="conj">That</seg>
-<seg type="word" me_root="ever"pos="adv">evere</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="swimmen"pos="v%pt_1">swymmed</seg>
-<seg type="word" me_root="in"pos="prep">in</seg>
-<seg type="word" me_root="swich"pos="gram_adj">swich</seg>
-<seg type="word" me_root="nicete"pos="n">nycetee</seg>
+<seg type="word" me_root="that" pos="conj">That</seg>
+<seg type="word" me_root="ever" pos="adv">evere</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="swimmen" pos="v%pt_1">swymmed</seg>
+<seg type="word" me_root="in" pos="prep">in</seg>
+<seg type="word" me_root="swich" pos="gram_adj">swich</seg>
+<seg type="word" me_root="nicete" pos="n">nycetee</seg>
 </l>
 <l n=" 405 ">
-<seg type="word" me_root="as"pos="conj">As</seg>
-<seg type="word" me_root="ben"pos="v%pt_3">was</seg>
-<seg type="word" me_root="displesaunt"pos="adj">displesaunt</seg>
-<seg type="word" me_root="to"pos="prep">to</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="deite"pos="n">deitee</seg>
+<seg type="word" me_root="as" pos="conj">As</seg>
+<seg type="word" me_root="ben" pos="v%pt_3">was</seg>
+<seg type="word" me_root="displesaunt" pos="adj">displesaunt</seg>
+<seg type="word" me_root="to" pos="prep">to</seg>
+<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+<seg type="word" me_root="deite" pos="n">deitee</seg>
 </l>
 <l n=" 406 ">
-<seg type="word" me_root="nou"pos="adv">Now</seg>
-<seg type="word" me_root="kithen"pos="v%imp">kythe</seg>
-<seg type="word" me_root="on"pos="prep">on</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="merci"pos="n1">mercy</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="grace"pos="n">grace</seg>
+<seg type="word" me_root="nou" pos="adv">Now</seg>
+<seg type="word" me_root="kithen" pos="v%imp">kythe</seg>
+<seg type="word" me_root="on" pos="prep">on</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+<seg type="word" me_root="merci" pos="n1">mercy</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+<seg type="word" me_root="grace" pos="n">grace</seg>
 </l>
 </lg>
-<lg type="stanza" n=59 rhyme="royal">
+<lg type="stanza" n="59" rhyme="royal">
 <l n=" 407 ">
-<seg type="word" me_root="hit"pos="pron">It</seg>
-<seg type="word" me_root="sitten"pos="v%pr_3">sit</seg>
-<seg type="word" me_root="a"pos="indef_art">a</seg>
-<seg type="word" me_root="god"pos="n1">god</seg>
-<seg type="word" me_root="ben"pos="v%inf">been</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="his"pos="pron1%gen">his</seg>
-<seg type="word" me_root="grace"pos="n">grace</seg>
-<seg type="word" me_root="fre"pos="adj">free</seg>
+<seg type="word" me_root="hit" pos="pron">It</seg>
+<seg type="word" me_root="sitten" pos="v%pr_3">sit</seg>
+<seg type="word" me_root="a" pos="indef_art">a</seg>
+<seg type="word" me_root="god" pos="n1">god</seg>
+<seg type="word" me_root="ben" pos="v%inf">been</seg>
+<seg type="word" me_root="of" pos="prep">of</seg>
+<seg type="word" me_root="his" pos="pron1%gen">his</seg>
+<seg type="word" me_root="grace" pos="n">grace</seg>
+<seg type="word" me_root="fre" pos="adj">free</seg>
 </l>
 <l n=" 408 ">
-<seg type="word" me_root="foryeven"pos="v%imp">Foryeve,</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="never"pos="adv">neuere</seg>
-<seg type="word" me_root="willen"pos="v%pr_1">wole</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="eft"pos="adv">eft</seg>
-<seg type="word" me_root="trespassen"pos="v#inf">trespace</seg>
+<seg type="word" me_root="foryeven" pos="v%imp">Foryeve,</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="never" pos="adv">neuere</seg>
+<seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="eft" pos="adv">eft</seg>
+<seg type="word" me_root="trespassen" pos="v#inf">trespace</seg>
 </l>
 <l n=" 409 ">
-<seg type="word" me_root="min"pos="pron%gen">My</seg>
-<seg type="word" me_root="bodi"pos="n">body</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="purse"pos="n">purs</seg>
-<seg type="word" me_root="ben"pos="v%pr_pl">been</seg>
-<seg type="word" me_root="at"pos="prep">at</seg>
-<seg type="word" me_root="ones"pos="adv">ones</seg>
-<seg type="word" me_root="sik"pos="adj">seeke</seg>
+<seg type="word" me_root="min" pos="pron%gen">My</seg>
+<seg type="word" me_root="bodi" pos="n">body</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="purse" pos="n">purs</seg>
+<seg type="word" me_root="ben" pos="v%pr_pl">been</seg>
+<seg type="word" me_root="at" pos="prep">at</seg>
+<seg type="word" me_root="ones" pos="adv">ones</seg>
+<seg type="word" me_root="sik" pos="adj">seeke</seg>
 </l>
 <l n=" 410 ">
-<seg type="word" me_root="and"pos="conj">And</seg>
-<seg type="word" me_root="for"pos="prep">for</seg>
-<seg type="word" me_root="hem"pos="pron%pl_obj">hem</seg>
-<seg type="word" me_root="bothe"pos="num#adj">bothe</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="to"pos="prep">to</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thyn</seg>
-<seg type="word" me_root="heigh"pos="adj">hy</seg>
-<seg type="word" me_root="noblesse"pos="n">noblesse</seg>
+<seg type="word" me_root="and" pos="conj">And</seg>
+<seg type="word" me_root="for" pos="prep">for</seg>
+<seg type="word" me_root="hem" pos="pron%pl_obj">hem</seg>
+<seg type="word" me_root="bothe" pos="num#adj">bothe</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="to" pos="prep">to</seg>
+<seg type="word" me_root="thin" pos="pron%gen">thyn</seg>
+<seg type="word" me_root="heigh" pos="adj">hy</seg>
+<seg type="word" me_root="noblesse" pos="n">noblesse</seg>
 </l>
 <l n=" 411 ">
-<seg type="word" me_root="as"pos="conj">As</seg>
-<seg type="word" me_root="humbli"pos="adv">humblely</seg>
-<seg type="word" me_root="as"pos="conj">as</seg>
-<seg type="word" me_root="that"pos="part">that</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="connen"pos="v%pr_1">can</seg>
-<seg type="word" me_root="bisechen"pos="v%inf">byseeke</seg>
+<seg type="word" me_root="as" pos="conj">As</seg>
+<seg type="word" me_root="humbli" pos="adv">humblely</seg>
+<seg type="word" me_root="as" pos="conj">as</seg>
+<seg type="word" me_root="that" pos="part">that</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="connen" pos="v%pr_1">can</seg>
+<seg type="word" me_root="bisechen" pos="v%inf">byseeke</seg>
 </l>
 <l n=" 412 ">
-<seg type="word" me_root="with"pos="prep">With</seg>
-<seg type="word" me_root="herte"pos="n">herte</seg>
-<seg type="word" me_root="unfeined"pos="adj">vnfeyned</seg>
-<seg type="word" me_root="reuen"pos="v1%imp">reewe</seg>
-<seg type="word" me_root="on"pos="prep">on</seg>
-<seg type="word" me_root="oure"pos="pron%gen">our</seg>
-<seg type="word" me_root="distresse"pos="n">distresse</seg>
+<seg type="word" me_root="with" pos="prep">With</seg>
+<seg type="word" me_root="herte" pos="n">herte</seg>
+<seg type="word" me_root="unfeined" pos="adj">vnfeyned</seg>
+<seg type="word" me_root="reuen" pos="v1%imp">reewe</seg>
+<seg type="word" me_root="on" pos="prep">on</seg>
+<seg type="word" me_root="oure" pos="pron%gen">our</seg>
+<seg type="word" me_root="distresse" pos="n">distresse</seg>
 </l>
 <l n=" 413 ">
-<seg type="word" me_root="pite"pos="n">Pitee</seg>
-<seg type="word" me_root="haven"pos="v%imp">have</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="min"pos="pron%gen">myn</seg>
-<seg type="word" me_root="harmful"pos="adj">harmful</seg>
-<seg type="word" me_root="hevinesse"pos="n">heuynesse</seg>
+<seg type="word" me_root="pite" pos="n">Pitee</seg>
+<seg type="word" me_root="haven" pos="v%imp">have</seg>
+<seg type="word" me_root="of" pos="prep">of</seg>
+<seg type="word" me_root="min" pos="pron%gen">myn</seg>
+<seg type="word" me_root="harmful" pos="adj">harmful</seg>
+<seg type="word" me_root="hevinesse" pos="n">heuynesse</seg>
 </l>
 </lg>
-<lg type="stanza" n=60 rhyme="royal">
+<lg type="stanza" n="60" rhyme="royal">
 <l n=" 414 ">
-<seg type="word" me_root="releven"pos="v%imp">Releeue</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="repentaunt"pos="adj">repentant</seg>
-<seg type="word" me_root="in"pos="prep">in</seg>
+<seg type="word" me_root="releven" pos="v%imp">Releeue</seg>
+<seg type="word" me_root="the" pos="def_art">the</seg>
+<seg type="word" me_root="repentaunt" pos="adj">repentant</seg>
+<seg type="word" me_root="in" pos="prep">in</seg>
 </l>
 <l n=" 415 ">
-<seg type="word" me_root="dispenden"pos="v%imp">Despende</seg>
-<seg type="word" me_root="on"pos="prep">on</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="a"pos="indef_art">a</seg>
-<seg type="word" me_root="drope"pos="n1">drope</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="largesse"pos="n">largesse</seg>
+<seg type="word" me_root="dispenden" pos="v%imp">Despende</seg>
+<seg type="word" me_root="on" pos="prep">on</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="a" pos="indef_art">a</seg>
+<seg type="word" me_root="drope" pos="n1">drope</seg>
+<seg type="word" me_root="of" pos="prep">of</seg>
+<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+<seg type="word" me_root="largesse" pos="n">largesse</seg>
 </l>
 <l n=" 416 ">
-<seg type="word" me_root="righte"pos="adv">Right</seg>
-<seg type="word" me_root="in"pos="prep">in</seg>
-<seg type="word" me_root="this"pos="gram_adj">this</seg>
-<seg type="word" me_root="wise"pos="n2">wyse</seg>
-<seg type="word" me_root="if"pos="conj">if</seg>
-<seg type="word" me_root="hit"pos="pron">it</seg>
-<seg type="word" me_root="the"pos="pron2%obj">thee</seg>
-<seg type="word" me_root="liken"pos="v1%pr_3">lyke</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="plesen"pos="v%pr_3">plese</seg>
+<seg type="word" me_root="righte" pos="adv">Right</seg>
+<seg type="word" me_root="in" pos="prep">in</seg>
+<seg type="word" me_root="this" pos="gram_adj">this</seg>
+<seg type="word" me_root="wise" pos="n2">wyse</seg>
+<seg type="word" me_root="if" pos="conj">if</seg>
+<seg type="word" me_root="hit" pos="pron">it</seg>
+<seg type="word" me_root="the" pos="pron2%obj">thee</seg>
+<seg type="word" me_root="liken" pos="v1%pr_3">lyke</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="plesen" pos="v%pr_3">plese</seg>
 </l>
 <l n=" 417 ">
-<seg type="word" me_root="lo"pos="interj">Lo</seg>
-<seg type="word" me_root="leten"pos="v%imp">lat</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="lord"pos="n">lord</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="fourneval"pos="n#propn">Fourneval,</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="preien"pos="v1%pr_1">preye</seg>
+<seg type="word" me_root="lo" pos="interj">Lo</seg>
+<seg type="word" me_root="leten" pos="v%imp">lat</seg>
+<seg type="word" me_root="min" pos="pron%gen">my</seg>
+<seg type="word" me_root="lord" pos="n">lord</seg>
+<seg type="word" me_root="the" pos="def_art">the</seg>
+<seg type="word" me_root="fourneval" pos="n#propn">Fourneval,</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="preien" pos="v1%pr_1">preye</seg>
 </l>
 <l n=" 418 ">
-<seg type="word" me_root="min"pos="pron%gen">My</seg>
-<seg type="word" me_root="noble"pos="adj">noble</seg>
-<seg type="word" me_root="lord"pos="n">lord</seg>
-<seg type="word" me_root="that"pos="pron_rel">that</seg>
-<seg type="word" me_root="nou"pos="adv">now</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="tresourere"pos="n">tresoreer</seg>
+<seg type="word" me_root="min" pos="pron%gen">My</seg>
+<seg type="word" me_root="noble" pos="adj">noble</seg>
+<seg type="word" me_root="lord" pos="n">lord</seg>
+<seg type="word" me_root="that" pos="pron_rel">that</seg>
+<seg type="word" me_root="nou" pos="adv">now</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="tresourere" pos="n">tresoreer</seg>
 </l>
 <l n=" 419 ">
-<seg type="word" me_root="from"pos="prep">From</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thyn</seg>
-<seg type="word" me_root="heighnesse"pos="n">hynesse</seg>
-<seg type="word" me_root="haven"pos="v%inf">have</seg>
-<seg type="word" me_root="a"pos="indef_art">a</seg>
-<seg type="word" me_root="tokene"pos="n">tokne</seg>
-<seg type="word" me_root="or"pos="conj">or</seg>
-<seg type="word" me_root="two"pos="num#adj">tweye</seg>
+<seg type="word" me_root="from" pos="prep">From</seg>
+<seg type="word" me_root="thin" pos="pron%gen">thyn</seg>
+<seg type="word" me_root="heighnesse" pos="n">hynesse</seg>
+<seg type="word" me_root="haven" pos="v%inf">have</seg>
+<seg type="word" me_root="a" pos="indef_art">a</seg>
+<seg type="word" me_root="tokene" pos="n">tokne</seg>
+<seg type="word" me_root="or" pos="conj">or</seg>
+<seg type="word" me_root="two" pos="num#adj">tweye</seg>
 </l>
 <l n=" 420 ">
-<seg type="word" me_root="to"pos="part">To</seg>
-<seg type="word" me_root="paien"pos="v%inf">paie</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="that"pos="pron_rel">that</seg>
-<seg type="word" me_root="due"pos="adj">due</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="for"pos="prep">for</seg>
-<seg type="word" me_root="this"pos="gram_adj">this</seg>
-<seg type="word" me_root="yer"pos="n">yeer</seg>
+<seg type="word" me_root="to" pos="part">To</seg>
+<seg type="word" me_root="paien" pos="v%inf">paie</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="that" pos="pron_rel">that</seg>
+<seg type="word" me_root="due" pos="adj">due</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="for" pos="prep">for</seg>
+<seg type="word" me_root="this" pos="gram_adj">this</seg>
+<seg type="word" me_root="yer" pos="n">yeer</seg>
 </l>
 </lg>
-<lg type="stanza" n=61 rhyme="royal">
+<lg type="stanza" n="61" rhyme="royal">
 <l n=" 421 ">
-<seg type="word" me_root="of"pos="prep">Of</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="yerli"pos="adj">yeerly</seg>
-<seg type="word" me_root="li"pos="num_rom">li</seg>
-<seg type="word" me_root="in"pos="prep">in</seg>
-<seg type="word" me_root="escheker"pos="n_art">theschequeer</seg>
+<seg type="word" me_root="of" pos="prep">Of</seg>
+<seg type="word" me_root="min" pos="pron%gen">my</seg>
+<seg type="word" me_root="yerli" pos="adj">yeerly</seg>
+<seg type="word" me_root="li" pos="num_rom">li</seg>
+<seg type="word" me_root="in" pos="prep">in</seg>
+<seg type="word" me_root="escheker" pos="n_art">theschequeer</seg>
 </l>
 <l n=" 422 ">
-<seg type="word" me_root="not"pos="adv">Nat</seg>
-<seg type="word" me_root="but"pos="conj">but</seg>
-<seg type="word" me_root="for"pos="prep">for</seg>
-<seg type="word" me_root="mighel"pos="n#propn">Michel</seg>
-<seg type="word" me_root="terme"pos="n">terme</seg>
-<seg type="word" me_root="that"pos="pron_rel">that</seg>
-<seg type="word" me_root="ben"pos="v%pt_3">was</seg>
-<seg type="word" me_root="laste"pos="adj">last</seg>
+<seg type="word" me_root="not" pos="adv">Nat</seg>
+<seg type="word" me_root="but" pos="conj">but</seg>
+<seg type="word" me_root="for" pos="prep">for</seg>
+<seg type="word" me_root="mighel" pos="n#propn">Michel</seg>
+<seg type="word" me_root="terme" pos="n">terme</seg>
+<seg type="word" me_root="that" pos="pron_rel">that</seg>
+<seg type="word" me_root="ben" pos="v%pt_3">was</seg>
+<seg type="word" me_root="laste" pos="adj">last</seg>
 </l>
 <l n=" 423 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="durren"pos="v%pr_1">dar</seg>
-<seg type="word" me_root="not"pos="adv">nat</seg>
-<seg type="word" me_root="speken"pos="v%inf">speke</seg>
-<seg type="word" me_root="a"pos="indef_art">a</seg>
-<seg type="word" me_root="word"pos="n">word</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="ferne-yer"pos="cpd">ferneyeer</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="durren" pos="v%pr_1">dar</seg>
+<seg type="word" me_root="not" pos="adv">nat</seg>
+<seg type="word" me_root="speken" pos="v%inf">speke</seg>
+<seg type="word" me_root="a" pos="indef_art">a</seg>
+<seg type="word" me_root="word" pos="n">word</seg>
+<seg type="word" me_root="of" pos="prep">of</seg>
+<seg type="word" me_root="ferne-yer" pos="cpd">ferneyeer</seg>
 </l>
 <l n=" 424 ">
-<seg type="word" me_root="so"pos="adv">So</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="spirit"pos="n">spirit</seg>
-<seg type="word" me_root="simple"pos="adj">symple</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="sore"pos="adv">sore</seg>
-<seg type="word" me_root="agasten"pos="v%ppl">agast</seg>
+<seg type="word" me_root="so" pos="adv">So</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="min" pos="pron%gen">my</seg>
+<seg type="word" me_root="spirit" pos="n">spirit</seg>
+<seg type="word" me_root="simple" pos="adj">symple</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="sore" pos="adv">sore</seg>
+<seg type="word" me_root="agasten" pos="v%ppl">agast</seg>
 </l>
 <l n=" 425 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="kepen"pos="v%pt_1">kepte</seg>
-<seg type="word" me_root="not"pos="adv">nat</seg>
-<seg type="word" me_root="to"pos="part">to</seg>
-<seg type="word" me_root="ben"pos="v%inf">be</seg>
-<seg type="word" me_root="sen"pos="v1%ppl">seen</seg>
-<seg type="word" me_root="importune"pos="adj">inportune</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="kepen" pos="v%pt_1">kepte</seg>
+<seg type="word" me_root="not" pos="adv">nat</seg>
+<seg type="word" me_root="to" pos="part">to</seg>
+<seg type="word" me_root="ben" pos="v%inf">be</seg>
+<seg type="word" me_root="sen" pos="v1%ppl">seen</seg>
+<seg type="word" me_root="importune" pos="adj">inportune</seg>
 </l>
 <l n=" 426 ">
-<seg type="word" me_root="in"pos="prep">In</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="pursuite"pos="n">pursuyte</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ben"pos="v%pr_1">am</seg>
-<seg type="word" me_root="ther-to"pos="adv">therto</seg>
-<seg type="word" me_root="ful"pos="adv">ful</seg>
-<seg type="word" me_root="loth"pos="adj">looth</seg>
+<seg type="word" me_root="in" pos="prep">In</seg>
+<seg type="word" me_root="min" pos="pron%gen">my</seg>
+<seg type="word" me_root="pursuite" pos="n">pursuyte</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="ben" pos="v%pr_1">am</seg>
+<seg type="word" me_root="ther-to" pos="adv">therto</seg>
+<seg type="word" me_root="ful" pos="adv">ful</seg>
+<seg type="word" me_root="loth" pos="adj">looth</seg>
 </l>
 <l n=" 427 ">
-<seg type="word" me_root="and"pos="conj">And</seg>
-<seg type="word" me_root="yet"pos="adv">yit</seg>
-<seg type="word" me_root="that"pos="art_gram_adj">that</seg>
-<seg type="word" me_root="gise"pos="n">gyse</seg>
-<seg type="word" me_root="rife"pos="adj">ryf</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="commune"pos="adj">commune</seg>
+<seg type="word" me_root="and" pos="conj">And</seg>
+<seg type="word" me_root="yet" pos="adv">yit</seg>
+<seg type="word" me_root="that" pos="art_gram_adj">that</seg>
+<seg type="word" me_root="gise" pos="n">gyse</seg>
+<seg type="word" me_root="rife" pos="adj">ryf</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="commune" pos="adj">commune</seg>
 </l>
-</lg>
-<lg type="stanza" n=62 rhyme="royal">
+<lg type="stanza" n="62" rhyme="royal">
 <l n=" 428 ">
-<seg type="word" me_root="amonges"pos="prep">Among</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="peple"pos="n">peple</seg>
-<seg type="word" me_root="nou"pos="adv">now</seg>
-<seg type="word" me_root="withouten"pos="prep">withouten</seg>
-<seg type="word" me_root="oth"pos="n">ooth</seg>
+<seg type="word" me_root="amonges" pos="prep">Among</seg>
+<seg type="word" me_root="the" pos="def_art">the</seg>
+<seg type="word" me_root="peple" pos="n">peple</seg>
+<seg type="word" me_root="nou" pos="adv">now</seg>
+<seg type="word" me_root="withouten" pos="prep">withouten</seg>
+<seg type="word" me_root="oth" pos="n">ooth</seg>
 </l>
 <l n=" 429 ">
-<seg type="word" me_root="as"pos="conj">As</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="shameles"pos="adj">shamelees</seg>
-<seg type="word" me_root="craver"pos="n">cravour</seg>
-<seg type="word" me_root="willen"pos="v%pr_3">wole</seg>
-<seg type="word" me_root="hit"pos="pron">it</seg>
-<seg type="word" me_root="gon"pos="v%pr_3">gooth</seg>
+<seg type="word" me_root="as" pos="conj">As</seg>
+<seg type="word" me_root="the" pos="def_art">the</seg>
+<seg type="word" me_root="shameles" pos="adj">shamelees</seg>
+<seg type="word" me_root="craver" pos="n">cravour</seg>
+<seg type="word" me_root="willen" pos="v%pr_3">wole</seg>
+<seg type="word" me_root="hit" pos="pron">it</seg>
+<seg type="word" me_root="gon" pos="v%pr_3">gooth</seg>
 </l>
 <l n=" 430 ">
-<seg type="word" me_root="for"pos="conj">For</seg>
-<seg type="word" me_root="estat"pos="n">estaat</seg>
-<seg type="word" me_root="real"pos="adj1">real</seg>
-<seg type="word" me_root="connen"pos="v%pr_3">can</seg>
-<seg type="word" me_root="not"pos="adv">nat</seg>
-<seg type="word" me_root="al_dai"pos="adv">al_a_dai</seg>
-<seg type="word" me_root="wernen"pos="v%inf">werne</seg>
+<seg type="word" me_root="for" pos="conj">For</seg>
+<seg type="word" me_root="estat" pos="n">estaat</seg>
+<seg type="word" me_root="real" pos="adj1">real</seg>
+<seg type="word" me_root="connen" pos="v%pr_3">can</seg>
+<seg type="word" me_root="not" pos="adv">nat</seg>
+<seg type="word" me_root="al_dai" pos="adv">al_a_dai</seg>
+<seg type="word" me_root="wernen" pos="v%inf">werne</seg>
 </l>
 <l n=" 431 ">
-<seg type="word" me_root="but"pos="conj">But</seg>
-<seg type="word" me_root="povre"pos="adj">poore</seg>
-<seg type="word" me_root="shamefaste"pos="adj">shamefast</seg>
-<seg type="word" me_root="man"pos="n">man</seg>
-<seg type="word" me_root="ofte"pos="adv">ofte</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="wroth"pos="adj">wrooth</seg>
+<seg type="word" me_root="but" pos="conj">But</seg>
+<seg type="word" me_root="povre" pos="adj">poore</seg>
+<seg type="word" me_root="shamefaste" pos="adj">shamefast</seg>
+<seg type="word" me_root="man" pos="n">man</seg>
+<seg type="word" me_root="ofte" pos="adv">ofte</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="wroth" pos="adj">wrooth</seg>
 </l>
 <l n=" 432 ">
-<seg type="word" me_root="wher-for"pos="adv">Wherfore</seg>
-<seg type="word" me_root="forto"pos="part">forto</seg>
-<seg type="word" me_root="to"pos="part">to</seg>
-<seg type="word" me_root="craven"pos="v%inf">crave</seg>
-<seg type="word" me_root="moten"pos="v2%pr_1">moot</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="lernen"pos="v%inf">lerne</seg>
+<seg type="word" me_root="wher-for" pos="adv">Wherfore</seg>
+<seg type="word" me_root="forto" pos="part">forto</seg>
+<seg type="word" me_root="to" pos="part">to</seg>
+<seg type="word" me_root="craven" pos="v%inf">crave</seg>
+<seg type="word" me_root="moten" pos="v2%pr_1">moot</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="lernen" pos="v%inf">lerne</seg>
 </l>
 <l n=" 433 ">
-<seg type="word" me_root="the"pos="def_art">The</seg>
-<seg type="word" me_root="proverbe"pos="n">prouerbe</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="domb"pos="adj">doumb</seg>
-<seg type="word" me_root="man"pos="n">man</seg>
-<seg type="word" me_root="no"pos="gram_adj">no</seg>
-<seg type="word" me_root="lond"pos="n">lond>>></seg>
-<seg type="word" me_root="geten"pos="v1%pr_3">getith</seg>
+<seg type="word" me_root="the" pos="def_art">The</seg>
+<seg type="word" me_root="proverbe" pos="n">prouerbe</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="the" pos="def_art">the</seg>
+<seg type="word" me_root="domb" pos="adj">doumb</seg>
+<seg type="word" me_root="man" pos="n">man</seg>
+<seg type="word" me_root="no" pos="gram_adj">no</seg>
+<seg type="word" me_root="lond" pos="n">lond&gt;&gt;&gt;</seg>
+<seg type="word" me_root="geten" pos="v1%pr_3">getith</seg>
 </l>
 <l n=" 434 ">
-<seg type="word" me_root="who-so"pos="pron%nom">Whoso</seg>
-<seg type="word" me_root="not"pos="adv">nat</seg>
-<seg type="word" me_root="speken"pos="v%pr_3">spekith</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="with"pos="prep">with</seg>
-<seg type="word" me_root="nede"pos="n1">neede</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="beten"pos="v1%ppl">bete</seg>
+<seg type="word" me_root="who-so" pos="pron%nom">Whoso</seg>
+<seg type="word" me_root="not" pos="adv">nat</seg>
+<seg type="word" me_root="speken" pos="v%pr_3">spekith</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="with" pos="prep">with</seg>
+<seg type="word" me_root="nede" pos="n1">neede</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="beten" pos="v1%ppl">bete</seg>
 </l>
 </lg>
-<lg type="stanza" n=63 rhyme="royal">
+<lg type="stanza" n="63" rhyme="royal">
 <l n=" 435 ">
-<seg type="word" me_root="and"pos="conj">And</seg>
-<seg type="word" me_root="thurgh"pos="prep">thurgh</seg>
-<seg type="word" me_root="arghnesse"pos="n">arghnesse</seg>
-<seg type="word" me_root="his"pos="pron1%gen">his</seg>
-<seg type="word" me_root="ouen"pos="adj">owne</seg>
-<seg type="word" me_root="self"pos="pron">self</seg>
-<seg type="word" me_root="foryeten"pos="v%pr_3">forgetith</seg>
+<seg type="word" me_root="and" pos="conj">And</seg>
+<seg type="word" me_root="thurgh" pos="prep">thurgh</seg>
+<seg type="word" me_root="arghnesse" pos="n">arghnesse</seg>
+<seg type="word" me_root="his" pos="pron1%gen">his</seg>
+<seg type="word" me_root="ouen" pos="adj">owne</seg>
+<seg type="word" me_root="self" pos="pron">self</seg>
+<seg type="word" me_root="foryeten" pos="v%pr_3">forgetith</seg>
 </l>
 <l n=" 436 ">
-<seg type="word" me_root="no"pos="gram_adj">No</seg>
-<seg type="word" me_root="wonder"pos="n">wondir</seg>
-<seg type="word" me_root="though"pos="conj">thogh</seg>
-<seg type="word" me_root="another"pos="gram_adj">anothir</seg>
-<seg type="word" me_root="foryeten"pos="v%pr_3">forgete</seg>
+<seg type="word" me_root="no" pos="gram_adj">No</seg>
+<seg type="word" me_root="wonder" pos="n">wondir</seg>
+<seg type="word" me_root="though" pos="conj">thogh</seg>
+<seg type="word" me_root="another" pos="gram_adj">anothir</seg>
+<seg type="word" me_root="foryeten" pos="v%pr_3">forgete</seg>
 </l>
 <l n=" 437 ">
-<seg type="word" me_root="nede"pos="n1">Neede</seg>
-<seg type="word" me_root="haven"pos="v%pr_3">hath</seg>
-<seg type="word" me_root="no"pos="gram_adj">no</seg>
-<seg type="word" me_root="laue"pos="n">lawe</seg>
-<seg type="word" me_root="as"pos="conj">as</seg>
-<seg type="word" me_root="that"pos="part">that</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="clerk"pos="n%pl">Clerkes</seg>
-<seg type="word" me_root="treten"pos="v%pr_pl">trete</seg>
+<seg type="word" me_root="nede" pos="n1">Neede</seg>
+<seg type="word" me_root="haven" pos="v%pr_3">hath</seg>
+<seg type="word" me_root="no" pos="gram_adj">no</seg>
+<seg type="word" me_root="laue" pos="n">lawe</seg>
+<seg type="word" me_root="as" pos="conj">as</seg>
+<seg type="word" me_root="that" pos="part">that</seg>
+<seg type="word" me_root="the" pos="def_art">the</seg>
+<seg type="word" me_root="clerk" pos="n%pl">Clerkes</seg>
+<seg type="word" me_root="treten" pos="v%pr_pl">trete</seg>
 </l>
 <l n=" 438 ">
-<seg type="word" me_root="and"pos="conj">And</seg>
-<seg type="word" me_root="thus"pos="adv">thus</seg>
-<seg type="word" me_root="to"pos="part">to</seg>
-<seg type="word" me_root="craven"pos="v%inf">crave</seg>
-<seg type="word" me_root="arten"pos="v%pr_3">artith</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="nede"pos="n1">neede</seg>
+<seg type="word" me_root="and" pos="conj">And</seg>
+<seg type="word" me_root="thus" pos="adv">thus</seg>
+<seg type="word" me_root="to" pos="part">to</seg>
+<seg type="word" me_root="craven" pos="v%inf">crave</seg>
+<seg type="word" me_root="arten" pos="v%pr_3">artith</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="min" pos="pron%gen">my</seg>
+<seg type="word" me_root="nede" pos="n1">neede</seg>
 </l>
 <l n=" 439 ">
-<seg type="word" me_root="and"pos="conj">And</seg>
-<seg type="word" me_root="right"pos="n">right</seg>
-<seg type="word" me_root="willen"pos="v%pr_3">wole</seg>
-<seg type="word" me_root="ek"pos="adv">eek</seg>
-<seg type="word" me_root="that"pos="pron_rel">that</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="entermeten"pos="v%pr_1">entremete</seg>
+<seg type="word" me_root="and" pos="conj">And</seg>
+<seg type="word" me_root="right" pos="n">right</seg>
+<seg type="word" me_root="willen" pos="v%pr_3">wole</seg>
+<seg type="word" me_root="ek" pos="adv">eek</seg>
+<seg type="word" me_root="that" pos="pron_rel">that</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="entermeten" pos="v%pr_1">entremete</seg>
 </l>
 <l n=" 440 ">
-<seg type="word" me_root="for"pos="conj">For</seg>
-<seg type="word" me_root="that"pos="pron">that</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="asken"pos="v%pr_1">axe</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="due"pos="adj">due,</seg>
-<seg type="word" me_root="as"pos="conj">as</seg>
-<seg type="word" me_root="god"pos="n1#propn">God</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="speden"pos="v%pr_3">speede</seg>
+<seg type="word" me_root="for" pos="conj">For</seg>
+<seg type="word" me_root="that" pos="pron">that</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="asken" pos="v%pr_1">axe</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="due" pos="adj">due,</seg>
+<seg type="word" me_root="as" pos="conj">as</seg>
+<seg type="word" me_root="god" pos="n1#propn">God</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="speden" pos="v%pr_3">speede</seg>
 </l>
 <l n=" 441 ">
-<seg type="word" me_root="and"pos="conj">And</seg>
-<seg type="word" me_root="that"pos="pron">that</seg>
-<seg type="word" me_root="that"pos="pron_rel">that</seg>
-<seg type="word" me_root="due"pos="adj">due</seg>
-<seg type="word" me_root="ben"pos="v%pr_3">is</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="magnificence"pos="n">magnificence</seg>
+<seg type="word" me_root="and" pos="conj">And</seg>
+<seg type="word" me_root="that" pos="pron">that</seg>
+<seg type="word" me_root="that" pos="pron_rel">that</seg>
+<seg type="word" me_root="due" pos="adj">due</seg>
+<seg type="word" me_root="ben" pos="v%pr_3">is</seg>
+<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+<seg type="word" me_root="magnificence" pos="n">magnificence</seg>
 </l>
 </lg>
-<lg type="stanza" n=64 rhyme="royal">
+<lg type="stanza" n="64" rhyme="royal">
 <l n=" 442 ">
-<seg type="word" me_root="shamen"pos="v%pr_3">Shameth</seg>
-<seg type="word" me_root="to"pos="part">to</seg>
-<seg type="word" me_root="wernen"pos="v%inf">werne</seg>
-<seg type="word" me_root="as"pos="conj">as</seg>
-<seg type="word" me_root="that"pos="part">that</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="bileven"pos="v2%pr_1">byleeue</seg>
+<seg type="word" me_root="shamen" pos="v%pr_3">Shameth</seg>
+<seg type="word" me_root="to" pos="part">to</seg>
+<seg type="word" me_root="wernen" pos="v%inf">werne</seg>
+<seg type="word" me_root="as" pos="conj">as</seg>
+<seg type="word" me_root="that" pos="part">that</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="bileven" pos="v2%pr_1">byleeue</seg>
 </l>
 <l n=" 443 ">
-<seg type="word" me_root="as"pos="conj">As</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="seien"pos="v1%pt_1">seide</seg>
-<seg type="word" me_root="reuen"pos="v1%imp">reewe</seg>
-<seg type="word" me_root="on"pos="prep">on</seg>
-<seg type="word" me_root="min"pos="pron%gen">myn</seg>
-<seg type="word" me_root="impotence"pos="n">inpotence</seg>
+<seg type="word" me_root="as" pos="conj">As</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="seien" pos="v1%pt_1">seide</seg>
+<seg type="word" me_root="reuen" pos="v1%imp">reewe</seg>
+<seg type="word" me_root="on" pos="prep">on</seg>
+<seg type="word" me_root="min" pos="pron%gen">myn</seg>
+<seg type="word" me_root="impotence" pos="n">inpotence</seg>
 </l>
 <l n=" 444 ">
-<seg type="word" me_root="that"pos="pron_rel">That</seg>
-<seg type="word" me_root="likli"pos="adj">likly</seg>
-<seg type="word" me_root="ben"pos="v%pr_1">am</seg>
-<seg type="word" me_root="to"pos="part">to</seg>
-<seg type="word" me_root="sterven"pos="v%inf">sterue</seg>
-<seg type="word" me_root="yet"pos="adv">yit</seg>
-<seg type="word" me_root="er"pos="prep">or</seg>
-<seg type="word" me_root="even"pos="n">eeve</seg>
+<seg type="word" me_root="that" pos="pron_rel">That</seg>
+<seg type="word" me_root="likli" pos="adj">likly</seg>
+<seg type="word" me_root="ben" pos="v%pr_1">am</seg>
+<seg type="word" me_root="to" pos="part">to</seg>
+<seg type="word" me_root="sterven" pos="v%inf">sterue</seg>
+<seg type="word" me_root="yet" pos="adv">yit</seg>
+<seg type="word" me_root="er" pos="prep">or</seg>
+<seg type="word" me_root="even" pos="n">eeve</seg>
 </l>
 <l n=" 445 ">
-<seg type="word" me_root="but"pos="conj">But</seg>
-<seg type="word" me_root="if"pos="conj">if</seg>
-<seg type="word" me_root="thou"pos="pron%nom">thow</seg>
-<seg type="word" me_root="in"pos="prep">in</seg>
-<seg type="word" me_root="this"pos="gram_adj">this</seg>
-<seg type="word" me_root="wise"pos="n2">wyse</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="releven"pos="v%pr_2">releeue</seg>
+<seg type="word" me_root="but" pos="conj">But</seg>
+<seg type="word" me_root="if" pos="conj">if</seg>
+<seg type="word" me_root="thou" pos="pron%nom">thow</seg>
+<seg type="word" me_root="in" pos="prep">in</seg>
+<seg type="word" me_root="this" pos="gram_adj">this</seg>
+<seg type="word" me_root="wise" pos="n2">wyse</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="releven" pos="v%pr_2">releeue</seg>
 </l>
 <l n=" 446 ">
-<seg type="word" me_root="bi"pos="prep">By</seg>
-<seg type="word" me_root="coin"pos="n1">coyn</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="geten"pos="v1%inf">gete</seg>
-<seg type="word" me_root="mouen"pos="v3%pr_1">may</seg>
-<seg type="word" me_root="swich"pos="gram_adj">swich</seg>
-<seg type="word" me_root="medicine"pos="n">medecyne</seg>
+<seg type="word" me_root="bi" pos="prep">By</seg>
+<seg type="word" me_root="coin" pos="n1">coyn</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="geten" pos="v1%inf">gete</seg>
+<seg type="word" me_root="mouen" pos="v3%pr_1">may</seg>
+<seg type="word" me_root="swich" pos="gram_adj">swich</seg>
+<seg type="word" me_root="medicine" pos="n">medecyne</seg>
 </l>
 <l n=" 447 ">
-<seg type="word" me_root="as"pos="conj">As</seg>
-<seg type="word" me_root="mouen"pos="v3%pr_pl">may</seg>
-<seg type="word" me_root="min"pos="pron%gen">myn</seg>
-<seg type="word" me_root="hurt"pos="n%pl">hurtes</seg>
-<seg type="word" me_root="al"pos="gram_adj">alle</seg>
-<seg type="word" me_root="that"pos="pron_rel">that</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="greven"pos="v%inf">greeve</seg>
+<seg type="word" me_root="as" pos="conj">As</seg>
+<seg type="word" me_root="mouen" pos="v3%pr_pl">may</seg>
+<seg type="word" me_root="min" pos="pron%gen">myn</seg>
+<seg type="word" me_root="hurt" pos="n%pl">hurtes</seg>
+<seg type="word" me_root="al" pos="gram_adj">alle</seg>
+<seg type="word" me_root="that" pos="pron_rel">that</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="greven" pos="v%inf">greeve</seg>
 </l>
 <l n=" 448 ">
-<seg type="word" me_root="exilen"pos="v%inf">Exyle</seg>
-<seg type="word" me_root="clene"pos="adv">cleene</seg>
-<seg type="word" me_root="and"pos="conj">and</seg>
-<seg type="word" me_root="voiden"pos="v%inf">voide</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="pine"pos="n1">pyne</seg>
+<seg type="word" me_root="exilen" pos="v%inf">Exyle</seg>
+<seg type="word" me_root="clene" pos="adv">cleene</seg>
+<seg type="word" me_root="and" pos="conj">and</seg>
+<seg type="word" me_root="voiden" pos="v%inf">voide</seg>
+<seg type="word" me_root="me" pos="pron2%obj">me</seg>
+<seg type="word" me_root="of" pos="prep">of</seg>
+<seg type="word" me_root="pine" pos="n1">pyne</seg>
 </l>
 <l n=" 448 ">
-<seg type="word" me_root="releven"pos="v%pr_2">releeue</seg>
+<seg type="word" me_root="releven" pos="v%pr_2">releeue</seg>
 </l>
 <l n=" 446 ">
-<seg type="word" me_root="bi"pos="prep">By</seg>
-<seg type="word" me_root="coin"pos="n1">coyn</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="geten"pos="v1%inf">gete</seg>
-<seg type="word" me_root="mouen"pos="v3%pr_1">may</seg>
-<seg type="word" me_root="swich"pos="gram_">swich</seg>
+<seg type="word" me_root="bi" pos="prep">By</seg>
+<seg type="word" me_root="coin" pos="n1">coyn</seg>
+<seg type="word" me_root="ich" pos="pron%nom">I</seg>
+<seg type="word" me_root="geten" pos="v1%inf">gete</seg>
+<seg type="word" me_root="mouen" pos="v3%pr_1">may</seg>
+<seg type="word" me_root="swich" pos="gram_">swich</seg>
 </l>
+</lg>
 </poem>
 
 <poem id="04-hoc">
@@ -38300,3 +38300,4 @@
 </l>
 </lg>
 </frag>
+</poems>

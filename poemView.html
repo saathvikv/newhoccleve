@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>View Poem</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #advancedSearchModal {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    #advancedSearchModal.active {
+      display: flex;
+    }
+    #advancedSearchContent {
+      background: #fff;
+      border-radius: 10px;
+      min-width: 300px;
+      min-height: 200px;
+      width: 80vw;
+      height: 80vh;
+      max-width: 1200px;
+      max-height: 90vh;
+      position: relative;
+      padding: 2em;
+      resize: both;
+      overflow: auto;
+      box-shadow: 0 0 20px #0008;
+      display: flex;
+      flex-direction: column;
+    }
+    #closeAdvancedSearch {
+      font-size: 2em;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="big-button" style="display:block; width:max-content; margin: 1em auto 0.5em auto; text-align:center;">Hoccleve Archive</a>
+  <button onclick="window.history.back()" class="big-button" style="display:block; width:max-content; margin: 0 auto 1em auto; text-align:center;">Back</button>
+  <div id="poemDisplay">Loading poem...</div>
+  <script src="poemsMetadata.js"></script>
+  <script src="loadPoem.js"></script>
+  <script>
+    // Get filename from query string
+    function getQueryParam(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+    const filename = getQueryParam('file');
+    if (filename) {
+      loadPoem(filename);
+    } else {
+      document.getElementById('poemDisplay').textContent = 'No poem specified.';
+    }
+  </script>
+  <!-- Floating search button -->
+  <button id="floatingSearchBtn" title="Search"><span aria-hidden="true">&#128269;</span></button>
+
+  <!-- Search panel (initially hidden) -->
+  <div id="side-panel">
+    <button id="advancedSearchBtn" style="margin-bottom:1em;">Advanced Search</button>
+    <span id="closePanel" class="close-btn">&times;</span>
+    <h3>Search</h3>
+    <input id="searchInput" type="text" placeholder="Search for a word or phrase..." style="width:100%;margin-bottom:1em;">
+    <div style="margin-bottom:1em;">
+      <label><input type="radio" name="searchScope" value="current" checked> Current Poem</label>
+      <label style="margin-left:1em;"><input type="radio" name="searchScope" value="all"> All Poems</label>
+    </div>
+    <div id="searchResults">Search results will appear here.</div>
+  </div>
+
+  <!-- Advanced Search Modal (initially hidden) -->
+  <div id="advancedSearchModal">
+    <div id="advancedSearchContent">
+      <span id="closeAdvancedSearch" class="close-btn">&times;</span>
+      <h2>Advanced Search</h2>
+      <!-- Advanced search options will go here -->
+    </div>
+  </div>
+
+  <script src="search.js"></script>
+  <script>
+    // Advanced Search Modal Logic
+    const advancedSearchBtn = document.getElementById('advancedSearchBtn');
+    const advancedSearchModal = document.getElementById('advancedSearchModal');
+    const closeAdvancedSearch = document.getElementById('closeAdvancedSearch');
+    if (advancedSearchBtn && advancedSearchModal && closeAdvancedSearch) {
+      advancedSearchBtn.addEventListener('click', () => {
+        advancedSearchModal.classList.add('active');
+      });
+      closeAdvancedSearch.addEventListener('click', () => {
+        advancedSearchModal.classList.remove('active');
+      });
+      // Optional: close modal when clicking outside content
+      advancedSearchModal.addEventListener('click', (e) => {
+        if (e.target === advancedSearchModal) {
+          advancedSearchModal.classList.remove('active');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

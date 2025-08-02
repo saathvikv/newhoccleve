@@ -66,28 +66,11 @@
       const btn = document.createElement('button');
       btn.textContent = poem.title;
       btn.addEventListener('click', () => {
-        loadPoem(poem.filename);
+        window.location.href = `poemView.html?file=${encodeURIComponent(poem.filename)}`;
       });
       poemButtonsDiv.appendChild(btn);
     });
     
-
 </script>
-<!-- Floating search button -->
-<button id="floatingSearchBtn" title="Search"><span aria-hidden="true">&#128269;</span></button>
-
-<!-- Search panel (initially hidden) -->
-<div id="side-panel">
-  <span id="closePanel" class="close-btn">&times;</span>
-  <h3>Search</h3>
-  <input id="searchInput" type="text" placeholder="Search for a word or phrase..." style="width:100%;margin-bottom:1em;">
-  <div style="margin-bottom:1em;">
-    <label><input type="radio" name="searchScope" value="current" checked> Current Poem</label>
-    <label style="margin-left:1em;"><input type="radio" name="searchScope" value="all"> All Poems</label>
-  </div>
-  <div id="searchResults">Search results will appear here.</div>
-</div>
-<script src="search.js"></script>
-<script src="loadPoem.js"></script>
 </body>
 </html>

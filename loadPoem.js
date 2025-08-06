@@ -53,7 +53,7 @@ async function loadPoem(filename) {
           span.className = 'word';
           span.textContent = wordSeg.textContent;
           span.dataset.pos = wordSeg.getAttribute('pos') || 'N/A';
-          span.dataset.root = wordSeg.getAttribute('me_root') || 'N/A';
+          span.setAttribute('data-me-root', wordSeg.getAttribute('me_root') || '');
           span.style.marginRight = '0.25em';
           lineEl.appendChild(span);
         });
@@ -69,3 +69,65 @@ async function loadPoem(filename) {
   }
 }
 window.loadPoem = loadPoem;
+
+
+// --- Context Menu Search Integration ---
+document.addEventListener('DOMContentLoaded', () => {
+  const poemDisplay = document.getElementById('poemDisplay');
+  if (!poemDisplay) return;
+
+  // Create custom context menu
+  const customMenu = document.createElement('div');
+  customMenu.id = 'customContextMenu';
+  customMenu.style.position = 'absolute';
+  customMenu.style.display = 'none';
+  customMenu.style.background = '#fff';
+  customMenu.style.border = '1px solid #888';
+  customMenu.style.padding = '0.5em 1em';
+  customMenu.style.zIndex = 9999;
+  customMenu.style.cursor = 'pointer';
+  customMenu.textContent = 'Search in Hoccleve Archive';
+  document.body.appendChild(customMenu);
+
+  let selectedText = '';
+
+  poemDisplay.addEventListener('contextmenu', function(e) {
+    // Get selected text or word under cursor
+    selectedText = window.getSelection().toString().trim();
+    if (!selectedText && e.target.classList.contains('word')) {
+      selectedText = e.target.textContent.trim();
+    }
+    if (selectedText) {
+      e.preventDefault();
+      customMenu.style.left = `${e.pageX}px`;
+      customMenu.style.top = `${e.pageY}px`;
+      customMenu.style.display = 'block';
+    } else {
+      customMenu.style.display = 'none';
+    }
+  });
+
+  // Hide menu on click elsewhere
+  document.addEventListener('click', () => {
+    customMenu.style.display = 'none';
+  });
+
+  // When menu is clicked, trigger search
+  customMenu.addEventListener('click', () => {
+    customMenu.style.display = 'none';
+    // Open sidebar if not open
+    const floatingSearchBtn = document.getElementById('floatingSearchBtn');
+    const sidePanel = document.getElementById('side-panel');
+    const searchInput = document.getElementById('searchInput');
+    if (sidePanel && sidePanel.style.display !== 'block') {
+      floatingSearchBtn?.click();
+    }
+    setTimeout(() => {
+      if (searchInput) {
+        searchInput.value = selectedText;
+        searchInput.dispatchEvent(new Event('input'));
+        searchInput.focus();
+      }
+    }, 100); // Wait for sidebar to open
+  });
+});

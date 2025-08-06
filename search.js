@@ -151,22 +151,4 @@ document.querySelectorAll('input[name="searchScope"]').forEach(radio => {
   radio.addEventListener('change', triggerSearch);
 });
 
-// Advanced Search Modal Logic
-const advancedSearchBtn = document.getElementById('advancedSearchBtn');
-const advancedSearchModal = document.getElementById('advancedSearchModal');
-const closeAdvancedSearch = document.getElementById('closeAdvancedSearch');
 
-if (advancedSearchBtn && advancedSearchModal && closeAdvancedSearch) {
-  advancedSearchBtn.addEventListener('click', () => {
-    advancedSearchModal.style.display = 'flex';
-  });
-  closeAdvancedSearch.addEventListener('click', () => {
-    advancedSearchModal.style.display = 'none';
-  });
-  // Optional: close modal when clicking outside content
-  advancedSearchModal.addEventListener('click', (e) => {
-    if (e.target === advancedSearchModal) {
-      advancedSearchModal.style.display = 'none';
-    }
-  });
-}

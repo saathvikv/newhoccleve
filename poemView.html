@@ -45,12 +45,10 @@
 </head>
 <body>
   <a href="index.html" class="big-button" style="display:block; width:max-content; margin: 1em auto 0.5em auto; text-align:center;">Hoccleve Archive</a>
-  <button onclick="window.history.back()" class="big-button" style="display:block; width:max-content; margin: 0 auto 1em auto; text-align:center;">Back</button>
   <div id="poemDisplay">Loading poem...</div>
   <script src="poemsMetadata.js"></script>
   <script src="loadPoem.js"></script>
   <script>
-    // Get filename from query string
     function getQueryParam(name) {
       const urlParams = new URLSearchParams(window.location.search);
       return urlParams.get(name);
@@ -62,10 +60,11 @@
       document.getElementById('poemDisplay').textContent = 'No poem specified.';
     }
   </script>
+
   <!-- Floating search button -->
   <button id="floatingSearchBtn" title="Search"><span aria-hidden="true">&#128269;</span></button>
 
-  <!-- Search panel (initially hidden) -->
+  <!-- Search panel -->
   <div id="side-panel">
     <button id="advancedSearchBtn" style="margin-bottom:1em;">Advanced Search</button>
     <span id="closePanel" class="close-btn">&times;</span>
@@ -78,35 +77,41 @@
     <div id="searchResults">Search results will appear here.</div>
   </div>
 
-  <!-- Advanced Search Modal (initially hidden) -->
+  <!-- Advanced Search Modal -->
   <div id="advancedSearchModal">
     <div id="advancedSearchContent">
       <span id="closeAdvancedSearch" class="close-btn">&times;</span>
       <h2>Advanced Search</h2>
-      <!-- Advanced search options will go here -->
+      <form id="advancedSearchForm" style="flex: 1; overflow-y: auto;">
+        <div style="margin-bottom: 1.5em;">
+          <label><input type="checkbox" id="useMeRoot" checked> Search by ME Root:</label><br>
+          <input type="text" id="meRootInput" placeholder="e.g. speken">
+        </div>
+
+        <div style="margin-bottom: 1.5em;">
+          <label><input type="checkbox" id="useWord" checked> Search by Word:</label><br>
+          <input type="text" id="wordInput" placeholder="e.g. spoken">
+        </div>
+
+        <div style="margin-bottom: 1.5em;">
+          <label><input type="checkbox" id="usePos" checked> Search by POS Tag:</label><br>
+          <select id="posInput">
+            <option value="">Select POS tag...</option>
+            <option value="NN">Noun</option>
+            <option value="VB">Verb</option>
+            <option value="JJ">Adjective</option>
+            <option value="RB">Adverb</option>
+            <option value="DT">Determiner</option>
+          </select>
+        </div>
+
+        <button type="submit" style="margin-top: 1em;">Search</button>
+      </form>
+
+      <div id="advancedSearchResults" style="margin-top: 2em;"></div>
     </div>
   </div>
 
   <script src="search.js"></script>
-  <script>
-    // Advanced Search Modal Logic
-    const advancedSearchBtn = document.getElementById('advancedSearchBtn');
-    const advancedSearchModal = document.getElementById('advancedSearchModal');
-    const closeAdvancedSearch = document.getElementById('closeAdvancedSearch');
-    if (advancedSearchBtn && advancedSearchModal && closeAdvancedSearch) {
-      advancedSearchBtn.addEventListener('click', () => {
-        advancedSearchModal.classList.add('active');
-      });
-      closeAdvancedSearch.addEventListener('click', () => {
-        advancedSearchModal.classList.remove('active');
-      });
-      // Optional: close modal when clicking outside content
-      advancedSearchModal.addEventListener('click', (e) => {
-        if (e.target === advancedSearchModal) {
-          advancedSearchModal.classList.remove('active');
-        }
-      });
-    }
-  </script>
 </body>
 </html>

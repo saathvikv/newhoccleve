@@ -37,12 +37,12 @@ function getCurrentPoemLines() {
   return lines;
 }
 
-// Helper to search all poems in SingularXML.xml
+// Helper to search all poems in allPoems.xml
 async function searchAllPoems(query) {
   const results = [];
   try {
-    const response = await fetch('Poems_XML/SingularXML.xml');
-    if (!response.ok) throw new Error('Could not fetch SingularXML.xml');
+    const response = await fetch('Poems_XML/allPoems.xml');
+    if (!response.ok) throw new Error('Could not fetch allPoems.xml');
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
@@ -86,7 +86,7 @@ async function searchAllPoems(query) {
       });
     });
   } catch (err) {
-    results.push({ error: 'Error loading or parsing SingularXML.xml: ' + err.message });
+    results.push({ error: 'Error loading or parsing allPoems.xml: ' + err.message });
   }
   return results;
 }

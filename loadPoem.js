@@ -71,7 +71,7 @@ async function loadPoem(filename) {
 window.loadPoem = loadPoem;
 
 
-// --- Context Menu Search Integration ---
+//  ** Context Menu Search Integration ** :)
 document.addEventListener('DOMContentLoaded', () => {
   const poemDisplay = document.getElementById('poemDisplay');
   if (!poemDisplay) return;

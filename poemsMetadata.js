@@ -32,7 +32,7 @@ const poemsMetadata = [
   {"filename":"Poems_XML/32-hoc.xml","title":"epilogue to three roundels","title_type":"HUNTINGTON HM 744"},
   {"filename":"Poems_XML/33-hoc.xml","title":"Lerne to Dye.","title_type":"HUNTINGTON HM 744"},
   {"filename":"Poems_XML/34-hoc.xml","title":"Thomas Hoccleve's Complaint","title_type":"Unknown"},
-  {"filename":"Poems_XML/35-hoc.xml","title":"Dialog with a Friend","title_type":"HUNTINGTON HM 111"},
-  {"filename":"Poems_XML/37-hoc.xml","title":"Lerne to Dye.","title_type":"HUNTINGTON HM 111"},
-  {"filename":"Poems_XML/39-hoc.xml","title":"Hoccleve's Dedication to Lady Westmoreland","title_type":"HUNTINGTON HM 111"}
+  {"filename":"Poems_XML/35-hoc.xml","title":"Dialog with a Friend","title_type":"DURHAM COSIN V.iii.9"},
+  {"filename":"Poems_XML/37-hoc.xml","title":"Lerne to Dye.","title_type":"DURHAM COSIN V.iii.9"},
+  {"filename":"Poems_XML/39-hoc.xml","title":"Hoccleve's Dedication to Lady Westmoreland","title_type":"DURHAM COSIN V.iii.9"}
 ];

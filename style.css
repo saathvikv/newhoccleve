@@ -108,7 +108,6 @@ button {
 
 .big-button:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(37,117,252,0.7);
   text-decoration: none;
 }
 
@@ -142,29 +141,19 @@ button {
   top: 24px;
   left: 32px;
   z-index: 100;
-  background: linear-gradient(135deg, #cdd7d4 0%, #092139 100%);
-  color: #fff;
   font-size: 1.15rem;
   font-family: Georgia, serif;
   font-weight: bold;
   padding: 0.7em 1.5em;
   border: none;
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(24,90,157,0.13);
   text-decoration: none;
   letter-spacing: 0.04em;
   transition: background 0.3s, box-shadow 0.2s, transform 0.15s;
   display: inline-block;
 }
 
-.big-button:hover, .big-button:focus {
-  background: linear-gradient(135deg, #417d94 0%, #0b1b25 100%);
-  box-shadow: 0 10px 20px rgba(37,117,252,0.18);
-  color: #fff;
-  text-decoration: none;
-  transform: scale(1.06);
-  outline: none;
-}
+
 .stanza {
   margin-bottom: 2em;
   padding-bottom: 1em;

@@ -3,7 +3,7 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
 
-const xmlFilePath = './Poems_XML/allPoems.XML';  // updated path to XML file
+const xmlFilePath = './Poems_XML/allPoems.XML';  
 const outputFilePath = './posList.json';
 
 fs.readFile(xmlFilePath, 'utf8', (err, data) => {
